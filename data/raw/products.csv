@@ -1,0 +1,51 @@
+product_id,product_name,category,price,discount_percent,stock,rating
+1,Wireless Headphones,Electronics,12435.12,20,9,4.18
+2,Coffee Maker,Home & Kitchen,14861.32,10,129,3.91
+3,Denim Jacket,Fashion,8693.35,10,105,3.93
+4,Deep Learning,Books,1364.27,10,122,4.49
+5,Football,Sports & Fitness,10435.11,0,139,4.12
+6,Lip Balm,Beauty,6866.16,0,104,4.41
+7,Whiteboard,Office,1166.83,5,83,4.44
+8,Gaming Mouse,Gaming,19093.55,25,154,3.54
+9,Bluetooth Speaker 2,Electronics,4901.71,20,56,4.11
+10,Blender 2,Home & Kitchen,14798.82,0,103,4.12
+11,Casual Shirt 2,Fashion,12226.19,5,77,4.26
+12,Algorithms in Practice 2,Books,1668.44,5,11,3.88
+13,Skipping Rope 2,Sports & Fitness,13169.05,15,87,3.84
+14,Hair Dryer 2,Beauty,6262.01,25,34,4.25
+15,Notebook 2,Office,13523.15,0,73,3.86
+16,Gaming Keyboard 2,Gaming,28806.38,15,70,3.4
+17,Smart Watch 3,Electronics,8077.91,5,173,4.23
+18,Desk Lamp 3,Home & Kitchen,15603.76,10,53,4.63
+19,Backpack 3,Fashion,14194.52,0,131,3.63
+20,Database Systems 3,Books,2279.0,0,24,3.9
+21,Gym Gloves 3,Sports & Fitness,8530.51,15,42,4.25
+22,Face Wash 3,Beauty,7161.03,10,38,3.4
+23,Gel Pens 3,Office,22815.96,10,131,4.15
+24,Controller 3,Gaming,28676.13,0,108,3.94
+25,USB-C Hub 4,Electronics,6292.44,20,79,4.15
+26,Water Bottle 4,Home & Kitchen,11222.0,0,64,4.21
+27,Sunglasses 4,Fashion,2578.53,0,109,3.76
+28,Cloud Computing 4,Books,6065.7,25,107,3.43
+29,Yoga Mat 4,Sports & Fitness,10881.93,5,11,3.39
+30,Moisturizer 4,Beauty,6046.49,10,142,4.43
+31,Desk Organizer 4,Office,14728.09,15,92,4.24
+32,Webcam 4,Gaming,26241.69,10,89,4.17
+33,Power Bank 5,Electronics,19439.47,10,97,3.77
+34,Non-Stick Pan 5,Home & Kitchen,1160.34,5,150,4.12
+35,Sports Cap 5,Fashion,3212.28,5,103,3.3
+36,Python Programming 5,Books,4598.99,0,56,4.18
+37,Resistance Bands 5,Sports & Fitness,13249.71,25,140,4.49
+38,Sunscreen 5,Beauty,11034.14,25,47,3.62
+39,Office Chair 5,Office,16756.86,10,71,3.68
+40,Gaming Headset 5,Gaming,36601.41,25,62,4.47
+41,Mechanical Keyboard 6,Electronics,17276.83,15,96,4.03
+42,Storage Organizer 6,Home & Kitchen,20637.73,0,36,3.85
+43,Running Shoes 6,Fashion,8283.67,25,178,4.13
+44,Data Science Handbook 6,Books,5041.93,20,161,4.0
+45,Dumbbells 6,Sports & Fitness,9628.14,10,62,4.15
+46,Shampoo 6,Beauty,8109.1,5,72,4.24
+47,Monitor Stand 6,Office,22466.99,5,53,3.5
+48,Mouse Pad 6,Gaming,11754.51,0,29,4.83
+49,Wireless Mouse 7,Electronics,9954.73,20,38,4.71
+50,Air Fryer 7,Home & Kitchen,19328.17,0,41,3.65

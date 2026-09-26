@@ -1,0 +1,45 @@
+table_name,column_name,data_type,key_or_constraint,description
+users,user_id,integer,Primary key,Unique user identifier
+users,first_name,string,,User first name
+users,last_name,string,,User last name
+users,email,string,Unique,Synthetic email address
+users,city,string,,User city
+users,country,string,,User country
+users,registration_date,date,,Account registration date
+products,product_id,integer,Primary key,Unique product identifier
+products,product_name,string,,Product name
+products,category,string,,Product category
+products,price,decimal,,List price in PKR
+products,discount_percent,integer,,Discount percentage
+products,stock,integer,,Available inventory
+products,rating,decimal,,Synthetic product rating from 2.5 to 5.0
+orders,order_id,integer,Primary key,Unique order identifier
+orders,user_id,integer,Foreign key -> users.user_id,Customer placing the order
+orders,order_date,date,,Order date
+orders,order_status,string,,Order lifecycle status
+orders,payment_method,string,,Selected payment method
+orders,total_amount,decimal,,Sum of order item line totals
+order_items,order_item_id,integer,Primary key,Unique line-item identifier
+order_items,order_id,integer,Foreign key -> orders.order_id,Parent order
+order_items,product_id,integer,Foreign key -> products.product_id,Purchased product
+order_items,quantity,integer,,Units purchased
+order_items,unit_price,decimal,,Discounted unit price
+order_items,line_total,decimal,,quantity * unit_price
+payments,payment_id,integer,Primary key,One payment record per order
+payments,order_id,integer,Foreign key -> orders.order_id,Paid order
+payments,payment_date,date,,Payment date
+payments,payment_method,string,,Payment method
+payments,payment_status,string,,Payment result/status
+payments,amount,decimal,,Payment amount
+reviews,review_id,integer,Primary key,Unique review identifier
+reviews,user_id,integer,Foreign key -> users.user_id,Reviewer
+reviews,product_id,integer,Foreign key -> products.product_id,Reviewed product
+reviews,rating,integer,,Rating from 1 to 5
+reviews,review_title,string,,Short synthetic review title
+reviews,review_date,date,,Review date
+user_events,event_id,integer,Primary key,Unique event identifier
+user_events,user_id,integer,Foreign key -> users.user_id,User generating event
+user_events,event_type,string,,Behavioral event type
+user_events,product_id,integer,Foreign key -> products.product_id; nullable,Related product where applicable
+user_events,search_query,string,Nullable,Search phrase for search events
+user_events,event_timestamp,datetime,,Event timestamp

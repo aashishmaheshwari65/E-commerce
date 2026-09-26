@@ -1,0 +1,137 @@
+REAL-TIME E-COMMERCE DATA ENGINEERING & AI PLATFORM
+========================================================
+
+PROJECT ROADMAP
+
+1. Synthetic Data Generation          [COMPLETED]
+   Python + Faker + Pandas + NumPy
+   Generates users, products, orders, payments, reviews and events.
+
+2. Supabase Data Ingestion            [COMPLETED]
+   Python + Pandas + SQLAlchemy
+   CSV data is loaded into Supabase PostgreSQL.
+
+3. Data Validation                    [IN PROGRESS]
+   Pandas + Python
+   Checks missing values, duplicates, formats, ranges,
+   foreign keys and business rules.
+   Output: data/validation/validation_report.json
+
+4. Batch ETL                          [NEXT]
+   Extract → Validate → Transform → Load
+   Clean data, standardize types and create analytics fields.
+
+5. Data Lake
+   Store Raw → Bronze → Silver → Gold data using Parquet.
+
+6. Airflow
+   Automate the complete batch data pipeline with DAGs.
+
+7. Real-Time Event Generator
+   Generate product views, searches, carts and purchases.
+
+8. Kafka Streaming
+   Producer → Kafka Topic → Consumer for real-time events.
+
+9. Real-Time Processing
+   Calculate live users, views, purchases, revenue and trends.
+
+10. PySpark
+    Process larger datasets and perform distributed transformations.
+
+11. Data Warehouse
+    Create fact_sales and dimension tables using a star schema.
+
+12. SQL Analytics
+    Revenue, sales, customers, products, retention and KPIs.
+
+13. Power BI
+    Build Executive, Sales, Product, Customer and Real-Time dashboards.
+
+14. Customer Segmentation
+    RFM/features → K-Means → customer segments.
+
+15. Churn Prediction
+    Customer features → ML model → churn probability.
+
+16. Sales Forecasting
+    Historical sales → feature engineering → future sales forecast.
+
+17. Recommendation System
+    User behavior → collaborative/content-based/hybrid recommendations.
+
+18. Automated ML Pipeline
+    Airflow → feature engineering → training → evaluation → model saving.
+
+19. FastAPI
+    Expose churn, forecasting and recommendation models through REST APIs.
+
+20. Monitoring
+    Monitor data quality, pipelines, Kafka, ML and API performance.
+
+21. Testing
+    Pytest for validation, ETL, database, ML and API tests.
+
+22. Docker
+    Containerize application, Airflow, Kafka, Spark and FastAPI.
+
+23. CI/CD
+    GitHub Actions → tests → build → deployment.
+
+24. Documentation
+    Professional GitHub README, architecture, setup, screenshots and results.
+
+
+CURRENT PROGRESS
+----------------
+1. Data Generation       DONE
+2. Supabase/Ingestion    DONE
+3. Data Validation       IN PROGRESS
+4. Batch ETL             NEXT
+
+
+CURRENT DATASETS
+----------------
+users.csv
+products.csv
+orders.csv
+order_items.csv
+payments.csv
+reviews.csv
+user_events.csv
+
+
+MAIN TECHNOLOGIES
+-----------------
+Python, Pandas, NumPy, Faker
+Supabase/PostgreSQL, SQLAlchemy
+Parquet, Apache Airflow
+Apache Kafka, PySpark
+Scikit-learn, XGBoost
+Power BI, FastAPI
+Pytest, Docker, GitHub Actions
+
+
+FINAL PIPELINE
+--------------
+Data Generation
+      ↓
+Ingestion
+      ↓
+Validation
+      ↓
+ETL
+      ↓
+Data Lake
+      ↓
+Airflow
+      ↓
+Kafka + PySpark
+      ↓
+Data Warehouse
+      ↓
+Power BI + Machine Learning
+      ↓
+FastAPI
+      ↓
+Monitoring + Testing + CI/CD

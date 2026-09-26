@@ -1,0 +1,32 @@
+{
+  "random_seed": 42,
+  "row_counts": {
+    "users": 100,
+    "products": 50,
+    "orders": 500,
+    "order_items": 1129,
+    "payments": 500,
+    "reviews": 200,
+    "user_events": 5000
+  },
+  "column_counts": {
+    "users": 7,
+    "products": 7,
+    "orders": 6,
+    "order_items": 6,
+    "payments": 6,
+    "reviews": 6,
+    "user_events": 6
+  },
+  "validation": {
+    "passed": true,
+    "errors": []
+  },
+  "summary": {
+    "total_order_value": 15155257.0,
+    "average_order_value": 30310.51,
+    "average_review_rating": 4.07,
+    "top_product_by_orders": 1,
+    "top_event_type": "page_view"
+  }
+}
