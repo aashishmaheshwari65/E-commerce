@@ -1,0 +1,49 @@
+[2026-09-29T15:51:12.232+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-09-29T15:51:12.315+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ecommerce_data_pipeline.data_validation scheduled__2026-09-28T00:00:00+00:00 [queued]>
+[2026-09-29T15:51:12.331+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ecommerce_data_pipeline.data_validation scheduled__2026-09-28T00:00:00+00:00 [queued]>
+[2026-09-29T15:51:12.332+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-09-29T15:51:12.356+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): data_validation> on 2026-09-28 00:00:00+00:00
+[2026-09-29T15:51:12.372+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ecommerce_data_pipeline', 'data_validation', 'scheduled__2026-09-28T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/ecommerce_pipeline.py', '--cfg-path', '/tmp/tmpqfc8_0qg']
+[2026-09-29T15:51:12.379+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask data_validation
+[2026-09-29T15:51:12.382+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=196) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-29T15:51:12.383+0000] {standard_task_runner.py:63} INFO - Started process 199 to run task
+[2026-09-29T15:51:12.492+0000] {task_command.py:426} INFO - Running <TaskInstance: ecommerce_data_pipeline.data_validation scheduled__2026-09-28T00:00:00+00:00 [running]> on host 032a93868173
+[2026-09-29T15:51:12.982+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='ecommerce_data_pipeline' AIRFLOW_CTX_TASK_ID='data_validation' AIRFLOW_CTX_EXECUTION_DATE='2026-09-28T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-28T00:00:00+00:00'
+[2026-09-29T15:51:12.984+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-09-29T15:51:13.037+0000] {logging_mixin.py:188} INFO - Starting Data Validation...
+[2026-09-29T15:51:13.042+0000] {logging_mixin.py:188} INFO - 
+============================================================
+[2026-09-29T15:51:13.043+0000] {logging_mixin.py:188} INFO - DATA VALIDATION STARTED
+[2026-09-29T15:51:13.043+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-09-29T15:51:13.044+0000] {logging_mixin.py:188} INFO - Loading users.csv...
+[2026-09-29T15:51:13.079+0000] {logging_mixin.py:188} INFO - Loading products.csv...
+[2026-09-29T15:51:13.103+0000] {logging_mixin.py:188} INFO - Loading orders.csv...
+[2026-09-29T15:51:13.126+0000] {logging_mixin.py:188} INFO - Loading order_items.csv...
+[2026-09-29T15:51:13.148+0000] {logging_mixin.py:188} INFO - Loading payments.csv...
+[2026-09-29T15:51:13.172+0000] {logging_mixin.py:188} INFO - Loading reviews.csv...
+[2026-09-29T15:51:13.196+0000] {logging_mixin.py:188} INFO - Loading user_events.csv...
+[2026-09-29T15:51:13.250+0000] {logging_mixin.py:188} INFO - 
+Validating users...
+[2026-09-29T15:51:13.333+0000] {logging_mixin.py:188} INFO - Validating products...
+[2026-09-29T15:51:13.337+0000] {logging_mixin.py:188} INFO - Validating orders...
+[2026-09-29T15:51:13.342+0000] {logging_mixin.py:188} INFO - Validating order items...
+[2026-09-29T15:51:13.347+0000] {logging_mixin.py:188} INFO - Validating payments...
+[2026-09-29T15:51:13.351+0000] {logging_mixin.py:188} INFO - Validating reviews...
+[2026-09-29T15:51:13.355+0000] {logging_mixin.py:188} INFO - Validating user events...
+[2026-09-29T15:51:13.370+0000] {logging_mixin.py:188} INFO - 
+============================================================
+[2026-09-29T15:51:13.371+0000] {logging_mixin.py:188} INFO - VALIDATION RESULT
+[2026-09-29T15:51:13.372+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-09-29T15:51:13.372+0000] {logging_mixin.py:188} INFO - Status: PASSED
+[2026-09-29T15:51:13.373+0000] {logging_mixin.py:188} INFO - Total errors: 0
+[2026-09-29T15:51:13.374+0000] {logging_mixin.py:188} INFO - 
+All validation checks passed!
+[2026-09-29T15:51:13.375+0000] {logging_mixin.py:188} INFO - 
+Report saved to: data/validation/validation_report.json
+[2026-09-29T15:51:13.376+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-09-29T15:51:13.377+0000] {logging_mixin.py:188} INFO - Data Validation passed.
+[2026-09-29T15:51:13.378+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-09-29T15:51:13.379+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-09-29T15:51:13.392+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ecommerce_data_pipeline, task_id=data_validation, run_id=scheduled__2026-09-28T00:00:00+00:00, execution_date=20260928T000000, start_date=20260929T155112, end_date=20260929T155113
+[2026-09-29T15:51:13.444+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-09-29T15:51:13.457+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

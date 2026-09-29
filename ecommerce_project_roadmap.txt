@@ -11,7 +11,7 @@ PROJECT ROADMAP
    Python + Pandas + SQLAlchemy
    CSV data is loaded into Supabase PostgreSQL.
 
-3. Data Validation                    [IN PROGRESS]
+3. Data Validation                    [completed]
    Pandas + Python
    Checks missing values, duplicates, formats, ranges,
    foreign keys and business rules.

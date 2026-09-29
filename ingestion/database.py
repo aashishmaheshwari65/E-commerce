@@ -12,11 +12,11 @@ Base = declarative_base()
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("SUPABASE_URL")
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not DATABASE_URL:
     raise ValueError(
-        "SUPABASE_URL is not configured in .env"
+        "DATABASE_URL is not configured in .env"
     )
 
 class User(Base):

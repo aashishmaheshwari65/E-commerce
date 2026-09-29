@@ -7,9 +7,21 @@ load_dotenv()
 
 app = Flask(__name__)
 
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+
+if not SUPABASE_URL:
+    raise ValueError("SUPABASE_URL is missing from .env")
+
+if not SUPABASE_URL.startswith("https://"):
+    raise ValueError("SUPABASE_URL must be a valid HTTP URL starting with https://. Please check your .env file.")
+
+if not SUPABASE_KEY:
+    raise ValueError("SUPABASE_KEY is missing from .env")
+
 supabase: Client = create_client(
-    os.environ.get("SUPABASE_URL"),
-    os.environ.get("SUPABASE_KEY")
+    SUPABASE_URL,
+    SUPABASE_KEY
 )
 
 @app.route('/')
