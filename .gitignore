@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+ecommerce_project_roadmap.txt
+.gitignore
