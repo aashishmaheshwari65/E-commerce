@@ -1,0 +1,69 @@
+[2026-09-29T16:48:16.109+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-09-29T16:48:16.143+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ecommerce_data_pipeline.data_lake manual__2026-09-29T16:48:10.450858+00:00 [queued]>
+[2026-09-29T16:48:16.153+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ecommerce_data_pipeline.data_lake manual__2026-09-29T16:48:10.450858+00:00 [queued]>
+[2026-09-29T16:48:16.154+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-09-29T16:48:16.170+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): data_lake> on 2026-09-29 16:48:10.450858+00:00
+[2026-09-29T16:48:16.177+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ecommerce_data_pipeline', 'data_lake', 'manual__2026-09-29T16:48:10.450858+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/ecommerce_pipeline.py', '--cfg-path', '/tmp/tmp7c0cltw7']
+[2026-09-29T16:48:16.180+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask data_lake
+[2026-09-29T16:48:16.181+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=636) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-29T16:48:16.182+0000] {standard_task_runner.py:63} INFO - Started process 638 to run task
+[2026-09-29T16:48:16.226+0000] {task_command.py:426} INFO - Running <TaskInstance: ecommerce_data_pipeline.data_lake manual__2026-09-29T16:48:10.450858+00:00 [running]> on host 032a93868173
+[2026-09-29T16:48:16.321+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='ecommerce_data_pipeline' AIRFLOW_CTX_TASK_ID='data_lake' AIRFLOW_CTX_EXECUTION_DATE='2026-09-29T16:48:10.450858+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-29T16:48:10.450858+00:00'
+[2026-09-29T16:48:16.323+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-09-29T16:48:16.490+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-09-29T16:48:16.491+0000] {logging_mixin.py:188} INFO - LOCAL DATA LAKE PIPELINE
+[2026-09-29T16:48:16.492+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-09-29T16:48:16.501+0000] {logging_mixin.py:188} INFO - 
+Creating Bronze Layer...
+[2026-09-29T16:48:16.502+0000] {logging_mixin.py:188} INFO - Processing users.csv...
+[2026-09-29T16:48:16.587+0000] {logging_mixin.py:188} INFO - Saved: data/lake/bronze/users.parquet
+[2026-09-29T16:48:16.588+0000] {logging_mixin.py:188} INFO - Processing products.csv...
+[2026-09-29T16:48:16.646+0000] {logging_mixin.py:188} INFO - Saved: data/lake/bronze/products.parquet
+[2026-09-29T16:48:16.648+0000] {logging_mixin.py:188} INFO - Processing orders.csv...
+[2026-09-29T16:48:16.691+0000] {logging_mixin.py:188} INFO - Saved: data/lake/bronze/orders.parquet
+[2026-09-29T16:48:16.692+0000] {logging_mixin.py:188} INFO - Processing order_items.csv...
+[2026-09-29T16:48:16.722+0000] {logging_mixin.py:188} INFO - Saved: data/lake/bronze/order_items.parquet
+[2026-09-29T16:48:16.723+0000] {logging_mixin.py:188} INFO - Processing payments.csv...
+[2026-09-29T16:48:16.750+0000] {logging_mixin.py:188} INFO - Saved: data/lake/bronze/payments.parquet
+[2026-09-29T16:48:16.751+0000] {logging_mixin.py:188} INFO - Processing reviews.csv...
+[2026-09-29T16:48:16.769+0000] {logging_mixin.py:188} INFO - Saved: data/lake/bronze/reviews.parquet
+[2026-09-29T16:48:16.770+0000] {logging_mixin.py:188} INFO - Processing user_events.csv...
+[2026-09-29T16:48:16.805+0000] {logging_mixin.py:188} INFO - Saved: data/lake/bronze/events.parquet
+[2026-09-29T16:48:16.805+0000] {logging_mixin.py:188} INFO - 
+Bronze layer completed.
+[2026-09-29T16:48:16.809+0000] {logging_mixin.py:188} INFO - 
+Creating Silver Layer...
+[2026-09-29T16:48:16.809+0000] {logging_mixin.py:188} INFO - Processing users_clean.csv...
+[2026-09-29T16:48:16.830+0000] {logging_mixin.py:188} INFO - Saved: data/lake/silver/users.parquet
+[2026-09-29T16:48:16.831+0000] {logging_mixin.py:188} INFO - Processing products_clean.csv...
+[2026-09-29T16:48:16.854+0000] {logging_mixin.py:188} INFO - Saved: data/lake/silver/products.parquet
+[2026-09-29T16:48:16.855+0000] {logging_mixin.py:188} INFO - Processing orders_clean.csv...
+[2026-09-29T16:48:16.874+0000] {logging_mixin.py:188} INFO - Saved: data/lake/silver/orders.parquet
+[2026-09-29T16:48:16.874+0000] {logging_mixin.py:188} INFO - Processing order_items_clean.csv...
+[2026-09-29T16:48:16.896+0000] {logging_mixin.py:188} INFO - Saved: data/lake/silver/order_items.parquet
+[2026-09-29T16:48:16.897+0000] {logging_mixin.py:188} INFO - Processing payments_clean.csv...
+[2026-09-29T16:48:16.916+0000] {logging_mixin.py:188} INFO - Saved: data/lake/silver/payments.parquet
+[2026-09-29T16:48:16.916+0000] {logging_mixin.py:188} INFO - Processing reviews_clean.csv...
+[2026-09-29T16:48:16.936+0000] {logging_mixin.py:188} INFO - Saved: data/lake/silver/reviews.parquet
+[2026-09-29T16:48:16.937+0000] {logging_mixin.py:188} INFO - Processing user_events_clean.csv...
+[2026-09-29T16:48:16.969+0000] {logging_mixin.py:188} INFO - Saved: data/lake/silver/events.parquet
+[2026-09-29T16:48:16.970+0000] {logging_mixin.py:188} INFO - 
+Silver layer completed.
+[2026-09-29T16:48:16.974+0000] {logging_mixin.py:188} INFO - 
+Creating customer sales dataset...
+[2026-09-29T16:48:17.091+0000] {logging_mixin.py:188} INFO - Saved: data/lake/gold/customer_sales.parquet
+[2026-09-29T16:48:17.092+0000] {logging_mixin.py:188} INFO - 
+Creating product sales dataset...
+[2026-09-29T16:48:17.155+0000] {logging_mixin.py:188} INFO - Saved: data/lake/gold/product_sales.parquet
+[2026-09-29T16:48:17.156+0000] {logging_mixin.py:188} INFO - 
+Gold layer completed.
+[2026-09-29T16:48:17.157+0000] {logging_mixin.py:188} INFO - 
+============================================================
+[2026-09-29T16:48:17.157+0000] {logging_mixin.py:188} INFO - DATA LAKE PIPELINE COMPLETED
+[2026-09-29T16:48:17.157+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-09-29T16:48:17.158+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-09-29T16:48:17.158+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-09-29T16:48:17.168+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ecommerce_data_pipeline, task_id=data_lake, run_id=manual__2026-09-29T16:48:10.450858+00:00, execution_date=20260929T164810, start_date=20260929T164816, end_date=20260929T164817
+[2026-09-29T16:48:17.200+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-09-29T16:48:17.217+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-29T16:48:17.220+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
