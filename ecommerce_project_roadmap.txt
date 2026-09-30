@@ -17,18 +17,17 @@ PROJECT ROADMAP
    foreign keys and business rules.
    Output: data/validation/validation_report.json
 
-4. Batch ETL                          [NEXT]
+4. Batch ETL                          [completed]
    Extract → Validate → Transform → Load
    Clean data, standardize types and create analytics fields.
 
-5. Data Lake
+5. Data Lake [completed]
    Store Raw → Bronze → Silver → Gold data using Parquet.
 
-6. Airflow
+6. Airflow  [completed]
    Automate the complete batch data pipeline with DAGs.
 
-7. Real-Time Event Generator
-   Generate product views, searches, carts and purchases.
+7. 	
 
 8. Kafka Streaming
    Producer → Kafka Topic → Consumer for real-time events.
