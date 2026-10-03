@@ -877,3 +877,180 @@
 {"event_id": "8aa8e98a-b43b-4b61-bfb4-bcd660651e13", "user_id": 20, "event_type": "product_view", "product_id": 19, "search_query": null, "event_timestamp": "2026-09-29T20:22:46.702171+00:00"}
 {"event_id": "2c08e353-dd04-483f-9b88-adabf8e67d9c", "user_id": 82, "event_type": "product_view", "product_id": 50, "search_query": null, "event_timestamp": "2026-09-29T20:22:46.904048+00:00"}
 {"event_id": "05304781-dc00-44af-9f05-d087a910f67c", "user_id": 4, "event_type": "search", "product_id": null, "search_query": "Power Bank 5", "event_timestamp": "2026-09-29T20:22:47.106369+00:00"}
+{"event_id": "53d32bf3-e309-41b1-9538-8695c2903676", "user_id": 40, "event_type": "product_view", "product_id": 45, "search_query": null, "event_timestamp": "2026-09-30T20:51:35.048475+00:00"}
+{"event_id": "ff241292-d899-4a30-ab45-87897c7661a8", "user_id": 88, "event_type": "search", "product_id": null, "search_query": "Dumbbells 6", "event_timestamp": "2026-09-30T20:51:35.250119+00:00"}
+{"event_id": "228b9ed3-d8a9-4f47-8e3a-adc2322a8d84", "user_id": 54, "event_type": "product_view", "product_id": 11, "search_query": null, "event_timestamp": "2026-09-30T20:51:35.451644+00:00"}
+{"event_id": "40f09faf-6e81-463b-8987-30b791cdf418", "user_id": 8, "event_type": "product_view", "product_id": 24, "search_query": null, "event_timestamp": "2026-09-30T20:51:35.653466+00:00"}
+{"event_id": "200a1471-cb3a-4be5-9061-4f984121b601", "user_id": 34, "event_type": "add_to_cart", "product_id": 23, "search_query": null, "event_timestamp": "2026-09-30T20:51:35.856273+00:00"}
+{"event_id": "e4f57bd8-1ef8-4821-afda-996eb280618b", "user_id": 4, "event_type": "product_view", "product_id": 29, "search_query": null, "event_timestamp": "2026-09-30T20:51:36.058697+00:00"}
+{"event_id": "b403e5e8-872d-44b0-a811-68e891b96de4", "user_id": 33, "event_type": "add_to_cart", "product_id": 35, "search_query": null, "event_timestamp": "2026-09-30T20:51:36.260964+00:00"}
+{"event_id": "997b04c2-4355-4370-bcc8-09d77804fa39", "user_id": 62, "event_type": "add_to_cart", "product_id": 47, "search_query": null, "event_timestamp": "2026-09-30T20:51:36.463286+00:00"}
+{"event_id": "dc193bb9-7f0e-49e9-bc14-5f883ac0478a", "user_id": 41, "event_type": "product_view", "product_id": 18, "search_query": null, "event_timestamp": "2026-09-30T20:51:36.665095+00:00"}
+{"event_id": "6649554f-4892-4966-8c08-efcb793dd2f4", "user_id": 84, "event_type": "product_view", "product_id": 45, "search_query": null, "event_timestamp": "2026-09-30T20:51:36.867387+00:00"}
+{"event_id": "4bcb08bf-3531-472f-9573-d103d2ef3221", "user_id": 25, "event_type": "add_to_cart", "product_id": 12, "search_query": null, "event_timestamp": "2026-09-30T20:51:37.069334+00:00"}
+{"event_id": "62d50cf1-1637-4b81-98cd-294d80820dde", "user_id": 25, "event_type": "product_view", "product_id": 20, "search_query": null, "event_timestamp": "2026-09-30T20:51:37.271349+00:00"}
+{"event_id": "134975ff-7006-4ba1-9df4-17dffced9e07", "user_id": 84, "event_type": "product_view", "product_id": 50, "search_query": null, "event_timestamp": "2026-09-30T20:51:37.473273+00:00"}
+{"event_id": "1d39a692-ae28-400b-ad03-0b087de04747", "user_id": 89, "event_type": "add_to_cart", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:37.674935+00:00"}
+{"event_id": "498c3796-f46b-4af6-bfa0-2ce253793d8c", "user_id": 21, "event_type": "purchase", "product_id": 4, "search_query": null, "event_timestamp": "2026-09-30T20:51:37.877109+00:00"}
+{"event_id": "2a3f74e4-57ba-4967-a1cb-74bcf1bca6c4", "user_id": 19, "event_type": "product_view", "product_id": 33, "search_query": null, "event_timestamp": "2026-09-30T20:51:38.078815+00:00"}
+{"event_id": "efb590f8-38e3-4643-8799-9a1c560a613f", "user_id": 93, "event_type": "add_to_cart", "product_id": 30, "search_query": null, "event_timestamp": "2026-09-30T20:51:38.280553+00:00"}
+{"event_id": "a783f900-255f-4e02-aaa1-41cb0ca24d1f", "user_id": 28, "event_type": "add_to_cart", "product_id": 26, "search_query": null, "event_timestamp": "2026-09-30T20:51:38.482635+00:00"}
+{"event_id": "c6c1162d-8a69-4302-8da8-9aa0d46018e7", "user_id": 72, "event_type": "purchase", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:38.684715+00:00"}
+{"event_id": "985a5d97-a41b-4b55-9445-1ddab6358692", "user_id": 58, "event_type": "add_to_cart", "product_id": 3, "search_query": null, "event_timestamp": "2026-09-30T20:51:38.886374+00:00"}
+{"event_id": "3a59859b-a136-46e2-be6a-3dfdfcfb64a5", "user_id": 58, "event_type": "product_view", "product_id": 40, "search_query": null, "event_timestamp": "2026-09-30T20:51:39.088255+00:00"}
+{"event_id": "3f2c1f6a-668b-46e9-ab6c-35e9f49dd1a5", "user_id": 34, "event_type": "product_view", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:39.289875+00:00"}
+{"event_id": "a38566c2-b4bc-4a07-80f5-dc18c54cc67a", "user_id": 15, "event_type": "search", "product_id": null, "search_query": "gaming mouse", "event_timestamp": "2026-09-30T20:51:39.491583+00:00"}
+{"event_id": "d234f438-db4c-4d37-ae2b-37706c34fa5a", "user_id": 60, "event_type": "product_view", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:39.693203+00:00"}
+{"event_id": "b760b720-f3b2-4139-be8a-fbd64d53213a", "user_id": 85, "event_type": "search", "product_id": null, "search_query": "Backpack 3", "event_timestamp": "2026-09-30T20:51:39.894156+00:00"}
+{"event_id": "d0314dab-78d4-496b-9d51-f7a76b03ad4a", "user_id": 72, "event_type": "search", "product_id": null, "search_query": "Wireless Mouse 7", "event_timestamp": "2026-09-30T20:51:40.094949+00:00"}
+{"event_id": "d80d6d5c-b69b-4681-b4ef-e07db9c5b3f8", "user_id": 57, "event_type": "product_view", "product_id": 33, "search_query": null, "event_timestamp": "2026-09-30T20:51:40.296363+00:00"}
+{"event_id": "d9c6f8a5-1f3b-47d5-8e3f-c436e6a58cbe", "user_id": 10, "event_type": "purchase", "product_id": 14, "search_query": null, "event_timestamp": "2026-09-30T20:51:40.497372+00:00"}
+{"event_id": "69a8923f-933a-4b46-9382-43a3195dff2e", "user_id": 79, "event_type": "product_view", "product_id": 24, "search_query": null, "event_timestamp": "2026-09-30T20:51:40.698321+00:00"}
+{"event_id": "3a049e40-d71c-4ca5-b72c-a6e35af87265", "user_id": 63, "event_type": "product_view", "product_id": 1, "search_query": null, "event_timestamp": "2026-09-30T20:51:40.900264+00:00"}
+{"event_id": "e41821ee-0dc3-4e70-a836-cc5e3724b976", "user_id": 41, "event_type": "product_view", "product_id": 42, "search_query": null, "event_timestamp": "2026-09-30T20:51:41.102188+00:00"}
+{"event_id": "ca6fa661-f7f7-486f-91e2-9fa1dcbad146", "user_id": 20, "event_type": "product_view", "product_id": 25, "search_query": null, "event_timestamp": "2026-09-30T20:51:41.304678+00:00"}
+{"event_id": "e6648585-0193-433a-bed2-cbb4c3793864", "user_id": 88, "event_type": "product_view", "product_id": 16, "search_query": null, "event_timestamp": "2026-09-30T20:51:41.507062+00:00"}
+{"event_id": "d4595bb8-7092-4739-ba7a-d82adbd54246", "user_id": 97, "event_type": "product_view", "product_id": 35, "search_query": null, "event_timestamp": "2026-09-30T20:51:41.709636+00:00"}
+{"event_id": "0573d6c0-5334-4150-a5ec-ee8839486cf7", "user_id": 86, "event_type": "product_view", "product_id": 12, "search_query": null, "event_timestamp": "2026-09-30T20:51:41.911862+00:00"}
+{"event_id": "7404a698-6db4-49ed-966e-643476084c2f", "user_id": 19, "event_type": "search", "product_id": null, "search_query": "Shampoo 6", "event_timestamp": "2026-09-30T20:51:42.113915+00:00"}
+{"event_id": "68b1e048-339d-4184-ae67-ab8a3ef26780", "user_id": 92, "event_type": "add_to_cart", "product_id": 33, "search_query": null, "event_timestamp": "2026-09-30T20:51:42.315962+00:00"}
+{"event_id": "7aa03d6a-542e-422f-a65e-8b788195f849", "user_id": 73, "event_type": "product_view", "product_id": 5, "search_query": null, "event_timestamp": "2026-09-30T20:51:42.518074+00:00"}
+{"event_id": "d686e5b9-485f-4fee-925c-4d324cb50504", "user_id": 94, "event_type": "add_to_cart", "product_id": 30, "search_query": null, "event_timestamp": "2026-09-30T20:51:42.720512+00:00"}
+{"event_id": "b1f9bbf6-e748-49b5-b48c-a93ac225fce6", "user_id": 99, "event_type": "product_view", "product_id": 27, "search_query": null, "event_timestamp": "2026-09-30T20:51:42.922945+00:00"}
+{"event_id": "1bf2b265-07cb-410d-aca5-e4a9942b27a3", "user_id": 52, "event_type": "add_to_cart", "product_id": 21, "search_query": null, "event_timestamp": "2026-09-30T20:51:43.124810+00:00"}
+{"event_id": "62299c60-b90e-4ac9-a7d1-8a587dc95905", "user_id": 20, "event_type": "search", "product_id": null, "search_query": "wireless headphones", "event_timestamp": "2026-09-30T20:51:43.326888+00:00"}
+{"event_id": "5355d618-68d4-4042-a656-6ca5798c4214", "user_id": 22, "event_type": "product_view", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:43.528840+00:00"}
+{"event_id": "68bd68cd-7078-4781-8d07-e4144a4ca44c", "user_id": 58, "event_type": "add_to_cart", "product_id": 14, "search_query": null, "event_timestamp": "2026-09-30T20:51:43.731267+00:00"}
+{"event_id": "30fd4fd9-31f5-419b-a9eb-4b217ffe5457", "user_id": 63, "event_type": "product_view", "product_id": 34, "search_query": null, "event_timestamp": "2026-09-30T20:51:43.933362+00:00"}
+{"event_id": "d3fe1c95-9dae-41ce-97ea-9d41a11bb8c4", "user_id": 98, "event_type": "product_view", "product_id": 2, "search_query": null, "event_timestamp": "2026-09-30T20:51:44.135476+00:00"}
+{"event_id": "3427c5b4-542e-4ab6-95df-50a70fa9f866", "user_id": 90, "event_type": "search", "product_id": null, "search_query": "smartphone", "event_timestamp": "2026-09-30T20:51:44.337247+00:00"}
+{"event_id": "b1d8a5b7-322e-4a9f-902f-4a996b3fd943", "user_id": 95, "event_type": "product_view", "product_id": 15, "search_query": null, "event_timestamp": "2026-09-30T20:51:44.538936+00:00"}
+{"event_id": "fc51b47e-daba-4725-93ce-ae11703e6a40", "user_id": 24, "event_type": "search", "product_id": null, "search_query": "mechanical keyboard", "event_timestamp": "2026-09-30T20:51:44.741135+00:00"}
+{"event_id": "84bc05d8-d0bb-4bdc-bba5-9d6502115491", "user_id": 34, "event_type": "product_view", "product_id": 27, "search_query": null, "event_timestamp": "2026-09-30T20:51:44.942678+00:00"}
+{"event_id": "f704b7db-a889-4bc9-a93c-101481d07de5", "user_id": 95, "event_type": "add_to_cart", "product_id": 13, "search_query": null, "event_timestamp": "2026-09-30T20:51:45.143751+00:00"}
+{"event_id": "7bfe941b-922a-4b84-9d53-c35a8c8ae150", "user_id": 75, "event_type": "purchase", "product_id": 25, "search_query": null, "event_timestamp": "2026-09-30T20:51:45.344947+00:00"}
+{"event_id": "4f3d330e-9d9d-4afc-891c-49dd5c763f50", "user_id": 10, "event_type": "add_to_cart", "product_id": 18, "search_query": null, "event_timestamp": "2026-09-30T20:51:45.545694+00:00"}
+{"event_id": "7f354f59-a026-4c73-932d-3a3cae4e0204", "user_id": 73, "event_type": "product_view", "product_id": 43, "search_query": null, "event_timestamp": "2026-09-30T20:51:45.746641+00:00"}
+{"event_id": "73433a83-8eee-460a-affb-394c394fc10e", "user_id": 55, "event_type": "product_view", "product_id": 17, "search_query": null, "event_timestamp": "2026-09-30T20:51:45.947766+00:00"}
+{"event_id": "47b464c5-4bf9-414c-b93e-25e9d4ff1d70", "user_id": 50, "event_type": "add_to_cart", "product_id": 33, "search_query": null, "event_timestamp": "2026-09-30T20:51:46.148854+00:00"}
+{"event_id": "c138baaa-a438-43c4-b40b-f9d23c0b336f", "user_id": 81, "event_type": "product_view", "product_id": 17, "search_query": null, "event_timestamp": "2026-09-30T20:51:46.349575+00:00"}
+{"event_id": "bda3144a-105c-4386-ade4-837937773d13", "user_id": 55, "event_type": "product_view", "product_id": 39, "search_query": null, "event_timestamp": "2026-09-30T20:51:46.550668+00:00"}
+{"event_id": "ac1f4597-9286-495f-bb60-cb29a9cb9f19", "user_id": 15, "event_type": "add_to_cart", "product_id": 41, "search_query": null, "event_timestamp": "2026-09-30T20:51:46.751687+00:00"}
+{"event_id": "105e9709-bcae-463c-89e8-7919a7700899", "user_id": 53, "event_type": "product_view", "product_id": 37, "search_query": null, "event_timestamp": "2026-09-30T20:51:46.953207+00:00"}
+{"event_id": "63fdc0c9-0a3d-4d70-bca5-6d0faf2cc4cb", "user_id": 1, "event_type": "product_view", "product_id": 40, "search_query": null, "event_timestamp": "2026-09-30T20:51:47.155033+00:00"}
+{"event_id": "0796bfc7-5dff-4109-b6d5-688abf25ddca", "user_id": 75, "event_type": "product_view", "product_id": 5, "search_query": null, "event_timestamp": "2026-09-30T20:51:47.356964+00:00"}
+{"event_id": "55437d21-dfcf-47c9-9f71-fcd09ce589b5", "user_id": 15, "event_type": "add_to_cart", "product_id": 26, "search_query": null, "event_timestamp": "2026-09-30T20:51:47.558789+00:00"}
+{"event_id": "34c15b88-0e46-4d29-88e0-5133e2df9319", "user_id": 79, "event_type": "purchase", "product_id": 29, "search_query": null, "event_timestamp": "2026-09-30T20:51:47.760869+00:00"}
+{"event_id": "efc7b38d-a980-45d2-b664-367f616cc864", "user_id": 63, "event_type": "add_to_cart", "product_id": 39, "search_query": null, "event_timestamp": "2026-09-30T20:51:47.962957+00:00"}
+{"event_id": "32abad75-ef2b-4189-894e-7b33eed01087", "user_id": 1, "event_type": "product_view", "product_id": 3, "search_query": null, "event_timestamp": "2026-09-30T20:51:48.165439+00:00"}
+{"event_id": "13365318-a1b7-4ed0-b566-c6e60bfaca65", "user_id": 51, "event_type": "product_view", "product_id": 18, "search_query": null, "event_timestamp": "2026-09-30T20:51:48.367020+00:00"}
+{"event_id": "d8bb8787-612d-4dc4-9a3b-a14eb16f147b", "user_id": 16, "event_type": "product_view", "product_id": 42, "search_query": null, "event_timestamp": "2026-09-30T20:51:48.567721+00:00"}
+{"event_id": "4af699f8-35b0-465b-806c-0a42fdce2b42", "user_id": 66, "event_type": "add_to_cart", "product_id": 43, "search_query": null, "event_timestamp": "2026-09-30T20:51:48.769017+00:00"}
+{"event_id": "3f94dc69-f317-44c0-afcc-26add1bfe2e2", "user_id": 72, "event_type": "product_view", "product_id": 38, "search_query": null, "event_timestamp": "2026-09-30T20:51:48.971289+00:00"}
+{"event_id": "4bd19da4-2ae2-4e1f-ac4a-f4a7d8374278", "user_id": 77, "event_type": "product_view", "product_id": 23, "search_query": null, "event_timestamp": "2026-09-30T20:51:49.173966+00:00"}
+{"event_id": "5296742d-c086-4c9e-ad2e-f22d9aaa5b97", "user_id": 1, "event_type": "search", "product_id": null, "search_query": "Denim Jacket", "event_timestamp": "2026-09-30T20:51:49.375665+00:00"}
+{"event_id": "2a35c93e-27a9-448b-b7d4-111601210476", "user_id": 34, "event_type": "product_view", "product_id": 14, "search_query": null, "event_timestamp": "2026-09-30T20:51:49.578200+00:00"}
+{"event_id": "152cb826-d3d3-4898-869b-4147c6226487", "user_id": 82, "event_type": "product_view", "product_id": 11, "search_query": null, "event_timestamp": "2026-09-30T20:51:49.780048+00:00"}
+{"event_id": "954a8699-5f4f-4ca3-a8ee-624957da73ef", "user_id": 97, "event_type": "product_view", "product_id": 20, "search_query": null, "event_timestamp": "2026-09-30T20:51:49.982367+00:00"}
+{"event_id": "6a5d783a-dd9f-4948-ac18-c0cabff059f9", "user_id": 38, "event_type": "product_view", "product_id": 22, "search_query": null, "event_timestamp": "2026-09-30T20:51:50.184187+00:00"}
+{"event_id": "ead4f7f0-943e-4ed7-b10d-adcbc3c7fc78", "user_id": 21, "event_type": "add_to_cart", "product_id": 10, "search_query": null, "event_timestamp": "2026-09-30T20:51:50.387080+00:00"}
+{"event_id": "c55facaf-b0f7-4d84-a6a7-cc1e2c2bff32", "user_id": 54, "event_type": "product_view", "product_id": 43, "search_query": null, "event_timestamp": "2026-09-30T20:51:50.588620+00:00"}
+{"event_id": "969e52c8-14ee-4ea0-97c4-b0dcb355d475", "user_id": 53, "event_type": "add_to_cart", "product_id": 35, "search_query": null, "event_timestamp": "2026-09-30T20:51:50.789501+00:00"}
+{"event_id": "a7319c40-3e4d-4668-9823-0779893c2ed9", "user_id": 94, "event_type": "product_view", "product_id": 23, "search_query": null, "event_timestamp": "2026-09-30T20:51:50.990639+00:00"}
+{"event_id": "a169e1b1-0522-406e-b17a-19f2d7bb8a9f", "user_id": 26, "event_type": "product_view", "product_id": 37, "search_query": null, "event_timestamp": "2026-09-30T20:51:51.193176+00:00"}
+{"event_id": "9801556f-cf92-4801-a497-6c7bd1730dfa", "user_id": 59, "event_type": "purchase", "product_id": 47, "search_query": null, "event_timestamp": "2026-09-30T20:51:51.395003+00:00"}
+{"event_id": "f3575f51-165b-4463-95f1-a3630605d1fb", "user_id": 78, "event_type": "search", "product_id": null, "search_query": "Gaming Keyboard 2", "event_timestamp": "2026-09-30T20:51:51.597318+00:00"}
+{"event_id": "482e39b7-9c4d-4b62-85a4-61a3ea57716e", "user_id": 31, "event_type": "purchase", "product_id": 19, "search_query": null, "event_timestamp": "2026-09-30T20:51:51.799168+00:00"}
+{"event_id": "a3182c44-47e8-43c9-9ee1-1377cb9bdc51", "user_id": 84, "event_type": "search", "product_id": null, "search_query": "Desk Organizer 4", "event_timestamp": "2026-09-30T20:51:52.000878+00:00"}
+{"event_id": "9c143d40-ddf1-42f3-99fe-ba143dddcca2", "user_id": 82, "event_type": "product_view", "product_id": 30, "search_query": null, "event_timestamp": "2026-09-30T20:51:52.203144+00:00"}
+{"event_id": "5fedffc9-dc9b-47d3-a1a3-6b39e1611e05", "user_id": 92, "event_type": "add_to_cart", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:52.405697+00:00"}
+{"event_id": "4baedc57-503e-4fd1-a84a-6ee92b5384ef", "user_id": 91, "event_type": "add_to_cart", "product_id": 29, "search_query": null, "event_timestamp": "2026-09-30T20:51:52.607944+00:00"}
+{"event_id": "53255b5d-40cc-4754-b737-e676a27b47cb", "user_id": 7, "event_type": "product_view", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:52.809274+00:00"}
+{"event_id": "6392ca4c-2297-4baf-a10f-10bb03b05429", "user_id": 30, "event_type": "product_view", "product_id": 34, "search_query": null, "event_timestamp": "2026-09-30T20:51:53.010235+00:00"}
+{"event_id": "13855574-5630-4722-8c45-83e10975361b", "user_id": 20, "event_type": "product_view", "product_id": 35, "search_query": null, "event_timestamp": "2026-09-30T20:51:53.211340+00:00"}
+{"event_id": "79f1b66a-9f32-470d-ab11-1dbaa953af59", "user_id": 19, "event_type": "add_to_cart", "product_id": 21, "search_query": null, "event_timestamp": "2026-09-30T20:51:53.412290+00:00"}
+{"event_id": "8ad327a7-5571-4669-91ff-1cf379013f1d", "user_id": 74, "event_type": "search", "product_id": null, "search_query": "Denim Jacket", "event_timestamp": "2026-09-30T20:51:53.614308+00:00"}
+{"event_id": "c88ae7ef-6da9-4392-bb9b-6c96a75b4b9a", "user_id": 100, "event_type": "product_view", "product_id": 3, "search_query": null, "event_timestamp": "2026-09-30T20:51:53.816064+00:00"}
+{"event_id": "d09b5825-da85-44ec-a558-e43b7eda2a4a", "user_id": 76, "event_type": "product_view", "product_id": 28, "search_query": null, "event_timestamp": "2026-09-30T20:51:54.017901+00:00"}
+{"event_id": "8e02e15c-931c-4729-99b3-d6d364f3400a", "user_id": 82, "event_type": "add_to_cart", "product_id": 46, "search_query": null, "event_timestamp": "2026-09-30T20:51:54.219064+00:00"}
+{"event_id": "ef31fc01-21ae-4863-acf6-3357c0dc3d99", "user_id": 38, "event_type": "product_view", "product_id": 3, "search_query": null, "event_timestamp": "2026-09-30T20:51:54.420509+00:00"}
+{"event_id": "7054daba-ca1b-44a6-ae58-a1c0065950b3", "user_id": 35, "event_type": "product_view", "product_id": 43, "search_query": null, "event_timestamp": "2026-09-30T20:51:54.621772+00:00"}
+{"event_id": "72826d8f-8b06-49dc-8268-6ea4a8f23355", "user_id": 80, "event_type": "add_to_cart", "product_id": 8, "search_query": null, "event_timestamp": "2026-09-30T20:51:54.823539+00:00"}
+{"event_id": "87c599eb-9b76-4197-8004-df9bccb54a97", "user_id": 29, "event_type": "product_view", "product_id": 15, "search_query": null, "event_timestamp": "2026-09-30T20:51:55.025518+00:00"}
+{"event_id": "5604c868-575b-48ae-9ba9-99425cce2b29", "user_id": 24, "event_type": "product_view", "product_id": 21, "search_query": null, "event_timestamp": "2026-09-30T20:51:55.227352+00:00"}
+{"event_id": "e6586573-5202-42ce-980f-2f5edad81951", "user_id": 51, "event_type": "product_view", "product_id": 41, "search_query": null, "event_timestamp": "2026-09-30T20:51:55.428303+00:00"}
+{"event_id": "842d6060-07b2-488c-9a5e-d7aefb872d12", "user_id": 56, "event_type": "search", "product_id": null, "search_query": "gaming mouse", "event_timestamp": "2026-09-30T20:51:55.629201+00:00"}
+{"event_id": "a2945911-bdca-467a-abe2-38aca3e22212", "user_id": 17, "event_type": "search", "product_id": null, "search_query": "4k monitor", "event_timestamp": "2026-09-30T20:51:55.830548+00:00"}
+{"event_id": "487f6a28-a943-4c5c-aee2-d06592f83c9d", "user_id": 42, "event_type": "product_view", "product_id": 34, "search_query": null, "event_timestamp": "2026-09-30T20:51:56.031639+00:00"}
+{"event_id": "10d3fa85-2d25-473d-af74-6b61684d65e7", "user_id": 76, "event_type": "product_view", "product_id": 9, "search_query": null, "event_timestamp": "2026-09-30T20:51:56.233027+00:00"}
+{"event_id": "f4ba0ab5-fa7c-48e5-9f5d-a9cda9afe3f4", "user_id": 4, "event_type": "product_view", "product_id": 11, "search_query": null, "event_timestamp": "2026-09-30T20:51:56.434639+00:00"}
+{"event_id": "eef476fd-0e05-46d4-a3eb-41caa4929496", "user_id": 82, "event_type": "product_view", "product_id": 21, "search_query": null, "event_timestamp": "2026-09-30T20:51:56.642266+00:00"}
+{"event_id": "18c4e50b-9d43-46dd-9a4f-a01bf6d709b3", "user_id": 99, "event_type": "purchase", "product_id": 42, "search_query": null, "event_timestamp": "2026-09-30T20:51:56.844828+00:00"}
+{"event_id": "19dd3dc3-e9d6-490a-85c5-f587bfa9aa7c", "user_id": 83, "event_type": "product_view", "product_id": 7, "search_query": null, "event_timestamp": "2026-09-30T20:51:57.047648+00:00"}
+{"event_id": "19fa21f1-b0f4-4997-a93a-a73725b9241a", "user_id": 34, "event_type": "search", "product_id": null, "search_query": "Office Chair 5", "event_timestamp": "2026-09-30T20:51:57.250138+00:00"}
+{"event_id": "e5140c5b-df35-4996-ab37-bf4ca46f11ad", "user_id": 87, "event_type": "product_view", "product_id": 50, "search_query": null, "event_timestamp": "2026-09-30T20:51:57.452401+00:00"}
+{"event_id": "9bc391e6-0992-4591-bbf4-86489c184d25", "user_id": 41, "event_type": "search", "product_id": null, "search_query": "Shampoo 6", "event_timestamp": "2026-09-30T20:51:57.654252+00:00"}
+{"event_id": "b5036bf5-f868-4f2c-8902-e54de25be175", "user_id": 63, "event_type": "product_view", "product_id": 14, "search_query": null, "event_timestamp": "2026-09-30T20:51:57.856109+00:00"}
+{"event_id": "986353ab-1782-4ee8-a7f0-a61aed806e7e", "user_id": 87, "event_type": "search", "product_id": null, "search_query": "smartwatch", "event_timestamp": "2026-09-30T20:51:58.057027+00:00"}
+{"event_id": "d6204af0-1390-4039-8c2b-ff16db2ec3f8", "user_id": 52, "event_type": "product_view", "product_id": 20, "search_query": null, "event_timestamp": "2026-09-30T20:51:58.258065+00:00"}
+{"event_id": "56d18732-8f47-4550-8a78-dd0aa2d8e9b8", "user_id": 96, "event_type": "search", "product_id": null, "search_query": "wireless headphones", "event_timestamp": "2026-09-30T20:51:58.459563+00:00"}
+{"event_id": "9dcc6187-786d-4eb8-9206-3f9cd0b8b3d8", "user_id": 71, "event_type": "search", "product_id": null, "search_query": "Gaming Mouse", "event_timestamp": "2026-09-30T20:51:58.661557+00:00"}
+{"event_id": "81f9d4f8-5926-45c9-9914-078f5cb71a26", "user_id": 27, "event_type": "search", "product_id": null, "search_query": "smartwatch", "event_timestamp": "2026-09-30T20:51:58.863521+00:00"}
+{"event_id": "0debf5c6-4311-4139-a1a2-e47b2aa4ec2b", "user_id": 96, "event_type": "search", "product_id": null, "search_query": "Sunscreen 5", "event_timestamp": "2026-09-30T20:51:59.066205+00:00"}
+{"event_id": "72d5f9df-c2ff-4b6b-901f-24d68e3db2f3", "user_id": 86, "event_type": "add_to_cart", "product_id": 35, "search_query": null, "event_timestamp": "2026-09-30T20:51:59.268154+00:00"}
+{"event_id": "b4abb6cf-46a2-4096-ab91-c09f63b6dc0d", "user_id": 35, "event_type": "add_to_cart", "product_id": 18, "search_query": null, "event_timestamp": "2026-09-30T20:51:59.471064+00:00"}
+{"event_id": "ac4aee6a-5101-474b-9cb8-5e948db6d59d", "user_id": 83, "event_type": "product_view", "product_id": 13, "search_query": null, "event_timestamp": "2026-09-30T20:51:59.672977+00:00"}
+{"event_id": "9e72a213-f223-40e0-a9dd-16c794bff7c6", "user_id": 100, "event_type": "add_to_cart", "product_id": 4, "search_query": null, "event_timestamp": "2026-09-30T20:51:59.876486+00:00"}
+{"event_id": "943d0fa3-19e5-4b8c-abac-a9bcd594670d", "user_id": 31, "event_type": "search", "product_id": null, "search_query": "wireless headphones", "event_timestamp": "2026-09-30T20:52:00.078422+00:00"}
+{"event_id": "2a27a631-f591-42ca-898e-5fbac1e4fa68", "user_id": 20, "event_type": "product_view", "product_id": 46, "search_query": null, "event_timestamp": "2026-09-30T20:52:00.280146+00:00"}
+{"event_id": "bb2db64e-5623-4a55-ba83-6b0ce46f3c7e", "user_id": 47, "event_type": "search", "product_id": null, "search_query": "smartphone", "event_timestamp": "2026-09-30T20:52:00.480946+00:00"}
+{"event_id": "b65b8220-6760-44b1-8ae6-d59d12322d6f", "user_id": 34, "event_type": "product_view", "product_id": 29, "search_query": null, "event_timestamp": "2026-09-30T20:52:00.682242+00:00"}
+{"event_id": "03a8e055-fd47-41e9-8fd6-64526f094f28", "user_id": 98, "event_type": "product_view", "product_id": 41, "search_query": null, "event_timestamp": "2026-09-30T20:52:00.883356+00:00"}
+{"event_id": "756f596c-c522-42f2-b525-eda6df225a09", "user_id": 65, "event_type": "product_view", "product_id": 38, "search_query": null, "event_timestamp": "2026-09-30T20:52:01.085248+00:00"}
+{"event_id": "82ff94a6-d959-4479-8a16-1a5d6d0e1b2f", "user_id": 44, "event_type": "product_view", "product_id": 15, "search_query": null, "event_timestamp": "2026-09-30T20:52:01.286761+00:00"}
+{"event_id": "768a6e5a-3956-4d00-86fa-5a2fa209f235", "user_id": 17, "event_type": "product_view", "product_id": 25, "search_query": null, "event_timestamp": "2026-09-30T20:52:01.489103+00:00"}
+{"event_id": "50c432a6-50f3-433d-93e0-db92d82ddd85", "user_id": 55, "event_type": "product_view", "product_id": 8, "search_query": null, "event_timestamp": "2026-09-30T20:52:01.691954+00:00"}
+{"event_id": "862d0171-addf-467b-a7e8-f186157f7d1e", "user_id": 62, "event_type": "purchase", "product_id": 36, "search_query": null, "event_timestamp": "2026-09-30T20:52:01.893691+00:00"}
+{"event_id": "d736b8eb-b76c-4ced-97d4-ff54830fb475", "user_id": 59, "event_type": "product_view", "product_id": 27, "search_query": null, "event_timestamp": "2026-09-30T20:52:02.094483+00:00"}
+{"event_id": "f3244b22-f55e-48a1-b6b1-fd073afb6d45", "user_id": 69, "event_type": "product_view", "product_id": 37, "search_query": null, "event_timestamp": "2026-09-30T20:52:02.295972+00:00"}
+{"event_id": "5d863504-b678-472a-a6f2-857d77357bbe", "user_id": 34, "event_type": "product_view", "product_id": 21, "search_query": null, "event_timestamp": "2026-09-30T20:52:02.497504+00:00"}
+{"event_id": "ee607539-405c-42f3-8939-b62528649bec", "user_id": 97, "event_type": "search", "product_id": null, "search_query": "smartphone", "event_timestamp": "2026-09-30T20:52:02.699329+00:00"}
+{"event_id": "a8412bfe-9b71-44d7-a282-389a42868fa5", "user_id": 58, "event_type": "product_view", "product_id": 41, "search_query": null, "event_timestamp": "2026-09-30T20:52:02.901564+00:00"}
+{"event_id": "a6b6a490-88a2-405f-85f8-37334f9bad30", "user_id": 78, "event_type": "product_view", "product_id": 27, "search_query": null, "event_timestamp": "2026-09-30T20:52:03.103436+00:00"}
+{"event_id": "1fbe1a83-3b42-44e5-a5e5-98effc9b09a9", "user_id": 89, "event_type": "product_view", "product_id": 36, "search_query": null, "event_timestamp": "2026-09-30T20:52:03.305739+00:00"}
+{"event_id": "fc94f79e-f824-4ede-ae6f-296dd4a288c8", "user_id": 2, "event_type": "product_view", "product_id": 31, "search_query": null, "event_timestamp": "2026-09-30T20:52:03.507434+00:00"}
+{"event_id": "05d832aa-e6fa-46e2-b4a4-d1b89d006c55", "user_id": 8, "event_type": "product_view", "product_id": 33, "search_query": null, "event_timestamp": "2026-09-30T20:52:03.709383+00:00"}
+{"event_id": "a01671bf-baa3-4ce6-ae49-6b7e659a51db", "user_id": 66, "event_type": "search", "product_id": null, "search_query": "Gaming Mouse", "event_timestamp": "2026-09-30T20:52:03.911591+00:00"}
+{"event_id": "34bda616-69d7-458b-ab27-4b25947fb4af", "user_id": 100, "event_type": "product_view", "product_id": 24, "search_query": null, "event_timestamp": "2026-09-30T20:52:04.114003+00:00"}
+{"event_id": "6622c090-c493-4a99-8409-56580742e9a9", "user_id": 59, "event_type": "search", "product_id": null, "search_query": "bluetooth speaker", "event_timestamp": "2026-09-30T20:52:04.316452+00:00"}
+{"event_id": "0d2fd2a0-62b1-440a-b77e-d820ca71c8a4", "user_id": 46, "event_type": "product_view", "product_id": 47, "search_query": null, "event_timestamp": "2026-09-30T20:52:04.518756+00:00"}
+{"event_id": "69886df3-e897-4f77-98e5-b781a700f460", "user_id": 52, "event_type": "product_view", "product_id": 37, "search_query": null, "event_timestamp": "2026-09-30T20:52:04.720591+00:00"}
+{"event_id": "fa764dfa-864a-4466-be0c-789a939c4496", "user_id": 35, "event_type": "product_view", "product_id": 39, "search_query": null, "event_timestamp": "2026-09-30T20:52:04.922302+00:00"}
+{"event_id": "24117649-d1ae-4af2-a218-26d41d54cca1", "user_id": 21, "event_type": "product_view", "product_id": 7, "search_query": null, "event_timestamp": "2026-09-30T20:52:05.124465+00:00"}
+{"event_id": "5b75a9e7-0bfd-4cdf-802a-7b60b3310beb", "user_id": 93, "event_type": "product_view", "product_id": 9, "search_query": null, "event_timestamp": "2026-09-30T20:52:05.326312+00:00"}
+{"event_id": "b7a19caf-0833-47de-9e68-06757c0e5550", "user_id": 29, "event_type": "search", "product_id": null, "search_query": "Power Bank 5", "event_timestamp": "2026-09-30T20:52:05.528657+00:00"}
+{"event_id": "72d98ad8-77a2-4f14-9d18-ca18bc6fd102", "user_id": 22, "event_type": "product_view", "product_id": 45, "search_query": null, "event_timestamp": "2026-09-30T20:52:05.737609+00:00"}
+{"event_id": "1fc898ca-1b80-45ef-94e1-7cce5743f1e4", "user_id": 33, "event_type": "product_view", "product_id": 2, "search_query": null, "event_timestamp": "2026-09-30T20:52:05.957911+00:00"}
+{"event_id": "fbc88a9c-6271-4d0c-9d06-122b2321f35f", "user_id": 76, "event_type": "product_view", "product_id": 15, "search_query": null, "event_timestamp": "2026-09-30T20:52:06.159846+00:00"}
+{"event_id": "2363608f-f5bd-4a4a-9758-4ccaca03d0d8", "user_id": 27, "event_type": "product_view", "product_id": 12, "search_query": null, "event_timestamp": "2026-09-30T20:52:06.361697+00:00"}
+{"event_id": "b983b53b-b554-48e9-8786-e8547d4d4d5b", "user_id": 100, "event_type": "product_view", "product_id": 5, "search_query": null, "event_timestamp": "2026-09-30T20:52:06.564183+00:00"}
+{"event_id": "4288031d-8c38-443c-aad4-d0daffadfa22", "user_id": 100, "event_type": "add_to_cart", "product_id": 27, "search_query": null, "event_timestamp": "2026-09-30T20:52:06.767256+00:00"}
+{"event_id": "97cee3ed-89b7-4147-9480-4215f4273bb2", "user_id": 64, "event_type": "purchase", "product_id": 32, "search_query": null, "event_timestamp": "2026-09-30T20:52:06.969112+00:00"}
+{"event_id": "d2977f6f-925c-4563-b4af-0697284187a1", "user_id": 65, "event_type": "product_view", "product_id": 17, "search_query": null, "event_timestamp": "2026-09-30T20:52:07.171325+00:00"}
+{"event_id": "4a950fb2-7be5-49aa-8089-f657e3e0bff1", "user_id": 90, "event_type": "product_view", "product_id": 26, "search_query": null, "event_timestamp": "2026-09-30T20:52:07.372566+00:00"}
+{"event_id": "4daa51b2-1963-4e90-a0c7-772c9d784861", "user_id": 54, "event_type": "add_to_cart", "product_id": 26, "search_query": null, "event_timestamp": "2026-09-30T20:52:07.577872+00:00"}
+{"event_id": "fa0d4d60-094e-4a0a-ae06-aec6cec92ade", "user_id": 58, "event_type": "search", "product_id": null, "search_query": "camera", "event_timestamp": "2026-09-30T20:52:07.778998+00:00"}
+{"event_id": "3f41c8bd-969f-4cdc-8268-3fb675bb32d5", "user_id": 75, "event_type": "search", "product_id": null, "search_query": "smartphone", "event_timestamp": "2026-09-30T20:52:07.980578+00:00"}
+{"event_id": "09984257-012e-4bb6-9da1-5b635ed326b9", "user_id": 5, "event_type": "product_view", "product_id": 4, "search_query": null, "event_timestamp": "2026-09-30T20:52:08.182139+00:00"}
+{"event_id": "8b0f1580-1215-472a-b970-c2a4cc9af8f9", "user_id": 44, "event_type": "add_to_cart", "product_id": 34, "search_query": null, "event_timestamp": "2026-09-30T20:52:08.384332+00:00"}
+{"event_id": "d955ab61-688b-4504-8341-f82ae4cb5225", "user_id": 65, "event_type": "product_view", "product_id": 33, "search_query": null, "event_timestamp": "2026-09-30T20:52:08.586700+00:00"}
+{"event_id": "db35ad92-ba42-4379-8c15-137db5903454", "user_id": 31, "event_type": "product_view", "product_id": 44, "search_query": null, "event_timestamp": "2026-09-30T20:52:08.788445+00:00"}
+{"event_id": "dd8e3311-645d-4cbd-b8a5-0feec41e08b4", "user_id": 8, "event_type": "product_view", "product_id": 39, "search_query": null, "event_timestamp": "2026-09-30T20:52:08.990198+00:00"}
+{"event_id": "2af35876-514f-4979-8591-29108aaabfe7", "user_id": 37, "event_type": "product_view", "product_id": 14, "search_query": null, "event_timestamp": "2026-09-30T20:52:09.191532+00:00"}
+{"event_id": "4ea176bc-65ae-4da7-8476-bd478ec7bf4a", "user_id": 98, "event_type": "product_view", "product_id": 33, "search_query": null, "event_timestamp": "2026-09-30T20:52:09.392592+00:00"}
+{"event_id": "a4b6c3c3-6beb-48a5-ac88-7487f489a871", "user_id": 44, "event_type": "add_to_cart", "product_id": 18, "search_query": null, "event_timestamp": "2026-09-30T20:52:09.593984+00:00"}
+{"event_id": "a38bb2b3-91f4-42fa-902d-5be2ccc3f82d", "user_id": 52, "event_type": "product_view", "product_id": 49, "search_query": null, "event_timestamp": "2026-09-30T20:52:09.795149+00:00"}
+{"event_id": "504dfdeb-0ace-4539-991f-56edc1e8d9ee", "user_id": 33, "event_type": "product_view", "product_id": 10, "search_query": null, "event_timestamp": "2026-09-30T20:52:09.996635+00:00"}
+{"event_id": "f77e9145-4a36-4ac1-8b33-e1abc46df5f6", "user_id": 8, "event_type": "search", "product_id": null, "search_query": "Webcam 4", "event_timestamp": "2026-09-30T20:52:10.197712+00:00"}
+{"event_id": "428cb8b2-7fbe-4393-a95a-38d64f502f0a", "user_id": 94, "event_type": "purchase", "product_id": 43, "search_query": null, "event_timestamp": "2026-09-30T20:52:10.398870+00:00"}
+{"event_id": "50a46457-7906-464c-abe0-de0ecd40a0dd", "user_id": 40, "event_type": "product_view", "product_id": 1, "search_query": null, "event_timestamp": "2026-09-30T20:52:10.599692+00:00"}
