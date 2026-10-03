@@ -1,0 +1,11 @@
+{
+    "timestamp": "2026-10-03T19:57:12.139230",
+    "tables": {
+        "dim_customer": 100,
+        "dim_product": 50,
+        "dim_date": 387,
+        "dim_payment": 20,
+        "dim_order": 500,
+        "fact_sales": 1129
+    }
+}
