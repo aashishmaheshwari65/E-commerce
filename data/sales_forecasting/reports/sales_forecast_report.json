@@ -1,0 +1,7 @@
+{
+    "timestamp": "2026-10-04T16:14:16.589682",
+    "historical_periods": 100,
+    "forecast_horizon": 30,
+    "aggregation": "daily",
+    "model_used": "RandomForestRegressor"
+}
