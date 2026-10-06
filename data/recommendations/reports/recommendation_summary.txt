@@ -1,0 +1,29 @@
+=====================================================
+      PRODUCT RECOMMENDATION SYSTEM SUMMARY REPORT   
+=====================================================
+
+Model Version      : 1.0.0
+Total Users        : 98
+Total Products     : 50
+Total Interactions : 874
+
+Cold-Start Strategy:
+  - New User    : Popularity score based on purchase count, interaction score, and rating
+  - New Product : Content-based similarity using TF-IDF text and numerical metadata
+  - Unknown User: Popularity fallback
+
+Evaluation Results:
+  - Method: popular, K=5 | Precision: 0.0213, Recall: 0.1064, Coverage: 0.1000
+  - Method: popular, K=10 | Precision: 0.0277, Recall: 0.2766, Coverage: 0.2000
+  - Method: popular, K=20 | Precision: 0.0191, Recall: 0.3830, Coverage: 0.4000
+  - Method: collaborative, K=5 | Precision: 0.0617, Recall: 0.3085, Coverage: 0.5600
+  - Method: collaborative, K=10 | Precision: 0.0500, Recall: 0.5000, Coverage: 0.7200
+  - Method: collaborative, K=20 | Precision: 0.0266, Recall: 0.5319, Coverage: 0.9400
+  - Method: content, K=5 | Precision: 0.0170, Recall: 0.0851, Coverage: 0.9600
+  - Method: content, K=10 | Precision: 0.0138, Recall: 0.1383, Coverage: 1.0000
+  - Method: content, K=20 | Precision: 0.0186, Recall: 0.3723, Coverage: 1.0000
+  - Method: hybrid, K=5 | Precision: 0.0319, Recall: 0.1596, Coverage: 0.7600
+  - Method: hybrid, K=10 | Precision: 0.0362, Recall: 0.3617, Coverage: 0.9000
+  - Method: hybrid, K=20 | Precision: 0.0277, Recall: 0.5532, Coverage: 0.9800
+
+=====================================================

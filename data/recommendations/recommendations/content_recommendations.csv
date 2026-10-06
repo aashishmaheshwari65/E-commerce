@@ -1,0 +1,51 @@
+rank,user_id,product_id,product_name,category,price,rating,recommendation_score,recommendation_method
+1,1,49,Wireless Mouse 7,Electronics,9954.73,4.71,6.157752513885498,content
+2,1,39,Office Chair 5,Office,16756.86,3.68,2.801605224609375,content
+3,1,19,Backpack 3,Fashion,14194.52,3.63,2.7973642349243164,content
+4,1,43,Running Shoes 6,Fashion,8283.67,4.13,2.7644035816192627,content
+5,1,27,Sunglasses 4,Fashion,2578.53,3.76,2.7504286766052246,content
+6,1,3,Denim Jacket,Fashion,8693.35,3.93,2.4710752964019775,content
+7,1,41,Mechanical Keyboard 6,Electronics,17276.83,4.03,2.453549385070801,content
+8,1,25,USB-C Hub 4,Electronics,6292.44,4.15,2.4168057441711426,content
+9,1,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,2.388592481613159,content
+10,1,35,Sports Cap 5,Fashion,3212.28,3.3,2.331453561782837,content
+1,10,8,Gaming Mouse,Gaming,19093.55,3.54,6.36342716217041,content
+2,10,40,Gaming Headset 5,Gaming,36601.41,4.47,5.738448143005371,content
+3,10,39,Office Chair 5,Office,16756.86,3.68,5.29202938079834,content
+4,10,45,Dumbbells 6,Sports & Fitness,9628.14,4.15,5.242429733276367,content
+5,10,16,Gaming Keyboard 2,Gaming,28806.38,3.4,4.944821357727051,content
+6,10,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,4.935963153839111,content
+7,10,37,Resistance Bands 5,Sports & Fitness,13249.71,4.49,4.757400989532471,content
+8,10,30,Moisturizer 4,Beauty,6046.49,4.43,4.606987953186035,content
+9,10,21,Gym Gloves 3,Sports & Fitness,8530.51,4.25,4.501565933227539,content
+10,10,46,Shampoo 6,Beauty,8109.1,4.24,4.485023498535156,content
+1,100,49,Wireless Mouse 7,Electronics,9954.73,4.71,19.810239791870117,content
+2,100,16,Gaming Keyboard 2,Gaming,28806.38,3.4,15.908163070678711,content
+3,100,43,Running Shoes 6,Fashion,8283.67,4.13,14.034514427185059,content
+4,100,27,Sunglasses 4,Fashion,2578.53,3.76,12.988112449645996,content
+5,100,32,Webcam 4,Gaming,26241.69,4.17,12.979334831237793,content
+6,100,38,Sunscreen 5,Beauty,11034.14,3.62,11.37950325012207,content
+7,100,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,11.279999732971191,content
+8,100,37,Resistance Bands 5,Sports & Fitness,13249.71,4.49,10.805879592895508,content
+9,100,46,Shampoo 6,Beauty,8109.1,4.24,10.453641891479492,content
+10,100,41,Mechanical Keyboard 6,Electronics,17276.83,4.03,9.878216743469238,content
+1,11,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,10.144062042236328,content
+2,11,42,Storage Organizer 6,Home & Kitchen,20637.73,3.85,9.468062400817871,content
+3,11,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,9.362034797668457,content
+4,11,50,Air Fryer 7,Home & Kitchen,19328.17,3.65,9.005497932434082,content
+5,11,34,Non-Stick Pan 5,Home & Kitchen,1160.34,4.12,8.056736946105957,content
+6,11,49,Wireless Mouse 7,Electronics,9954.73,4.71,4.617450714111328,content
+7,11,20,Database Systems 3,Books,2279.0,3.9,4.317448139190674,content
+8,11,28,Cloud Computing 4,Books,6065.7,3.43,4.296401023864746,content
+9,11,44,Data Science Handbook 6,Books,5041.93,4.0,4.1619462966918945,content
+10,11,30,Moisturizer 4,Beauty,6046.49,4.43,3.5501081943511963,content
+1,12,49,Wireless Mouse 7,Electronics,9954.73,4.71,8.283587455749512,content
+2,12,8,Gaming Mouse,Gaming,19093.55,3.54,4.451423168182373,content
+3,12,31,Desk Organizer 4,Office,14728.09,4.24,4.230593681335449,content
+4,12,16,Gaming Keyboard 2,Gaming,28806.38,3.4,4.176571369171143,content
+5,12,41,Mechanical Keyboard 6,Electronics,17276.83,4.03,4.0232253074646,content
+6,12,25,USB-C Hub 4,Electronics,6292.44,4.15,3.9473259449005127,content
+7,12,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,3.9033944606781006,content
+8,12,17,Smart Watch 3,Electronics,8077.91,4.23,3.601722478866577,content
+9,12,37,Resistance Bands 5,Sports & Fitness,13249.71,4.49,3.5559043884277344,content
+10,12,32,Webcam 4,Gaming,26241.69,4.17,3.4319212436676025,content

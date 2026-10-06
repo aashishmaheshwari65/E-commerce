@@ -1,0 +1,158 @@
+{
+  "model_version": "1.0.0",
+  "dataset_statistics": {
+    "num_users": 98,
+    "num_products": 50,
+    "num_interactions": 874
+  },
+  "interaction_weights": {
+    "product_view": 1.0,
+    "search": 1.0,
+    "add_to_cart": 3.0,
+    "purchase": 5.0,
+    "review": 4.0
+  },
+  "hybrid_weights": {
+    "collaborative_weight": 0.6,
+    "content_weight": 0.4
+  },
+  "cold_start_strategy": {
+    "new_user": "Popularity score based on purchase count, interaction score, and rating",
+    "new_product": "Content-based similarity using TF-IDF text and numerical metadata",
+    "unknown_user": "Popularity fallback"
+  },
+  "evaluation_summary": [
+    {
+      "method": "popular",
+      "k": 5,
+      "precision": 0.02127659574468085,
+      "recall": 0.10638297872340426,
+      "hit_rate": 0.10638297872340426,
+      "map": 0.02677304964539007,
+      "ndcg": 0.04589299161777224,
+      "catalog_coverage": 0.1,
+      "unique_recommended_count": 5
+    },
+    {
+      "method": "popular",
+      "k": 10,
+      "precision": 0.02765957446808511,
+      "recall": 0.2765957446808511,
+      "hit_rate": 0.2765957446808511,
+      "map": 0.05108915906788247,
+      "ndcg": 0.1026305802702545,
+      "catalog_coverage": 0.2,
+      "unique_recommended_count": 10
+    },
+    {
+      "method": "popular",
+      "k": 20,
+      "precision": 0.01914893617021277,
+      "recall": 0.3829787234042553,
+      "hit_rate": 0.3829787234042553,
+      "map": 0.06032513585705075,
+      "ndcg": 0.1317599074995856,
+      "catalog_coverage": 0.4,
+      "unique_recommended_count": 20
+    },
+    {
+      "method": "collaborative",
+      "k": 5,
+      "precision": 0.06170212765957447,
+      "recall": 0.30851063829787234,
+      "hit_rate": 0.30851063829787234,
+      "map": 0.10585106382978722,
+      "ndcg": 0.15554714118457177,
+      "catalog_coverage": 0.56,
+      "unique_recommended_count": 28
+    },
+    {
+      "method": "collaborative",
+      "k": 10,
+      "precision": 0.049999999999999996,
+      "recall": 0.5,
+      "hit_rate": 0.5,
+      "map": 0.13271698750422153,
+      "ndcg": 0.21879106612880017,
+      "catalog_coverage": 0.72,
+      "unique_recommended_count": 36
+    },
+    {
+      "method": "collaborative",
+      "k": 20,
+      "precision": 0.026595744680851054,
+      "recall": 0.5319148936170213,
+      "hit_rate": 0.5319148936170213,
+      "map": 0.13524224002947405,
+      "ndcg": 0.22723037256144804,
+      "catalog_coverage": 0.94,
+      "unique_recommended_count": 47
+    },
+    {
+      "method": "content",
+      "k": 5,
+      "precision": 0.01702127659574468,
+      "recall": 0.0851063829787234,
+      "hit_rate": 0.0851063829787234,
+      "map": 0.03900709219858156,
+      "ndcg": 0.05057598273256552,
+      "catalog_coverage": 0.96,
+      "unique_recommended_count": 48
+    },
+    {
+      "method": "content",
+      "k": 10,
+      "precision": 0.013829787234042556,
+      "recall": 0.13829787234042554,
+      "hit_rate": 0.13829787234042554,
+      "map": 0.046128841607565016,
+      "ndcg": 0.06778847287068937,
+      "catalog_coverage": 1.0,
+      "unique_recommended_count": 50
+    },
+    {
+      "method": "content",
+      "k": 20,
+      "precision": 0.018617021276595747,
+      "recall": 0.3723404255319149,
+      "hit_rate": 0.3723404255319149,
+      "map": 0.061428511764458,
+      "ndcg": 0.1257614052528819,
+      "catalog_coverage": 1.0,
+      "unique_recommended_count": 50
+    },
+    {
+      "method": "hybrid",
+      "k": 5,
+      "precision": 0.03191489361702128,
+      "recall": 0.1595744680851064,
+      "hit_rate": 0.1595744680851064,
+      "map": 0.06400709219858156,
+      "ndcg": 0.08730564332749961,
+      "catalog_coverage": 0.76,
+      "unique_recommended_count": 38
+    },
+    {
+      "method": "hybrid",
+      "k": 10,
+      "precision": 0.03617021276595745,
+      "recall": 0.3617021276595745,
+      "hit_rate": 0.3617021276595745,
+      "map": 0.08889733198243838,
+      "ndcg": 0.1505894553483559,
+      "catalog_coverage": 0.9,
+      "unique_recommended_count": 45
+    },
+    {
+      "method": "hybrid",
+      "k": 20,
+      "precision": 0.027659574468085098,
+      "recall": 0.5531914893617021,
+      "hit_rate": 0.5531914893617021,
+      "map": 0.10309927956204554,
+      "ndcg": 0.2001549248415689,
+      "catalog_coverage": 0.98,
+      "unique_recommended_count": 49
+    }
+  ]
+}

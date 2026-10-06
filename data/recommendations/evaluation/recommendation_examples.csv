@@ -1,0 +1,101 @@
+rank,user_id,product_id,product_name,category,price,rating,recommendation_score,recommendation_method
+1,1,3,Denim Jacket,Fashion,8693.35,3.93,0.7517270380955161,hybrid
+2,1,7,Whiteboard,Office,1166.83,4.44,0.6793298501622433,hybrid
+3,1,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.6679466765426181,hybrid
+4,1,27,Sunglasses 4,Fashion,2578.53,3.76,0.6529130354682743,hybrid
+5,1,6,Lip Balm,Beauty,6866.16,4.41,0.6118112502446423,hybrid
+6,1,17,Smart Watch 3,Electronics,8077.91,4.23,0.6020833692724141,hybrid
+7,1,4,Deep Learning,Books,1364.27,4.49,0.5979034950582571,hybrid
+8,1,2,Coffee Maker,Home & Kitchen,14861.32,3.91,0.5879419646672118,hybrid
+9,1,10,Blender 2,Home & Kitchen,14798.82,4.12,0.5576389114246705,hybrid
+10,1,8,Gaming Mouse,Gaming,19093.55,3.54,0.5572116780497952,hybrid
+1,10,8,Gaming Mouse,Gaming,19093.55,3.54,0.8750533394903499,hybrid
+2,10,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.722029058367982,hybrid
+3,10,3,Denim Jacket,Fashion,8693.35,3.93,0.7113266107719907,hybrid
+4,10,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.6942418377037547,hybrid
+5,10,21,Gym Gloves 3,Sports & Fitness,8530.51,4.25,0.6859079918781827,hybrid
+6,10,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,0.665046091167424,hybrid
+7,10,14,Hair Dryer 2,Beauty,6262.01,4.25,0.6455822687537216,hybrid
+8,10,11,Casual Shirt 2,Fashion,12226.19,4.26,0.6304929127033423,hybrid
+9,10,27,Sunglasses 4,Fashion,2578.53,3.76,0.6250519060425024,hybrid
+10,10,16,Gaming Keyboard 2,Gaming,28806.38,3.4,0.6064010647534274,hybrid
+1,100,27,Sunglasses 4,Fashion,2578.53,3.76,0.7623737277108916,hybrid
+2,100,10,Blender 2,Home & Kitchen,14798.82,4.12,0.6570123321850087,hybrid
+3,100,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.6515793820894883,hybrid
+4,100,16,Gaming Keyboard 2,Gaming,28806.38,3.4,0.6396765658549257,hybrid
+5,100,7,Whiteboard,Office,1166.83,4.44,0.6312069126185532,hybrid
+6,100,21,Gym Gloves 3,Sports & Fitness,8530.51,4.25,0.6179302459953369,hybrid
+7,100,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.5962542534522763,hybrid
+8,100,12,Algorithms in Practice 2,Books,1668.44,3.88,0.5462636118321575,hybrid
+9,100,49,Wireless Mouse 7,Electronics,9954.73,4.71,0.5072727455465614,hybrid
+10,100,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,0.4705895807432567,hybrid
+1,11,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,0.8316218311268462,hybrid
+2,11,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.7927325638604867,hybrid
+3,11,34,Non-Stick Pan 5,Home & Kitchen,1160.34,4.12,0.7032518116791497,hybrid
+4,11,50,Air Fryer 7,Home & Kitchen,19328.17,3.65,0.6703351818975892,hybrid
+5,11,3,Denim Jacket,Fashion,8693.35,3.93,0.6621307926618522,hybrid
+6,11,7,Whiteboard,Office,1166.83,4.44,0.6324788946408387,hybrid
+7,11,14,Hair Dryer 2,Beauty,6262.01,4.25,0.5992005486446732,hybrid
+8,11,8,Gaming Mouse,Gaming,19093.55,3.54,0.594692001775318,hybrid
+9,11,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.5872354771344784,hybrid
+10,11,5,Football,Sports & Fitness,10435.11,4.12,0.5713961101784159,hybrid
+1,12,8,Gaming Mouse,Gaming,19093.55,3.54,0.74758573646414,hybrid
+2,12,2,Coffee Maker,Home & Kitchen,14861.32,3.91,0.7054511752640616,hybrid
+3,12,10,Blender 2,Home & Kitchen,14798.82,4.12,0.6277959167350446,hybrid
+4,12,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.6117211575344541,hybrid
+5,12,11,Casual Shirt 2,Fashion,12226.19,4.26,0.5912749729649589,hybrid
+6,12,4,Deep Learning,Books,1364.27,4.49,0.5855025524122751,hybrid
+7,12,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.5822462426695508,hybrid
+8,12,21,Gym Gloves 3,Sports & Fitness,8530.51,4.25,0.5770143279931251,hybrid
+9,12,17,Smart Watch 3,Electronics,8077.91,4.23,0.5736555532803185,hybrid
+10,12,49,Wireless Mouse 7,Electronics,9954.73,4.71,0.5437406403712155,hybrid
+1,13,1,Wireless Headphones,Electronics,12435.12,4.18,0.7444342277983844,hybrid
+2,13,11,Casual Shirt 2,Fashion,12226.19,4.26,0.6439179617622379,hybrid
+3,13,27,Sunglasses 4,Fashion,2578.53,3.76,0.633177201974797,hybrid
+4,13,48,Mouse Pad 6,Gaming,11754.51,4.83,0.6288076599081491,hybrid
+5,13,16,Gaming Keyboard 2,Gaming,28806.38,3.4,0.6275520633136961,hybrid
+6,13,40,Gaming Headset 5,Gaming,36601.41,4.47,0.5804038366323631,hybrid
+7,13,2,Coffee Maker,Home & Kitchen,14861.32,3.91,0.549912243667213,hybrid
+8,13,15,Notebook 2,Office,13523.15,3.86,0.5441195871063548,hybrid
+9,13,19,Backpack 3,Fashion,14194.52,3.63,0.533211826559441,hybrid
+10,13,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.492235727386402,hybrid
+1,14,8,Gaming Mouse,Gaming,19093.55,3.54,0.9114831690473051,hybrid
+2,14,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.9080104467888147,hybrid
+3,14,45,Dumbbells 6,Sports & Fitness,9628.14,4.15,0.7512825475528147,hybrid
+4,14,40,Gaming Headset 5,Gaming,36601.41,4.47,0.7014282642916365,hybrid
+5,14,50,Air Fryer 7,Home & Kitchen,19328.17,3.65,0.5914031829840056,hybrid
+6,14,25,USB-C Hub 4,Electronics,6292.44,4.15,0.5540979283742438,hybrid
+7,14,39,Office Chair 5,Office,16756.86,3.68,0.5493445320064911,hybrid
+8,14,41,Mechanical Keyboard 6,Electronics,17276.83,4.03,0.5330572826647111,hybrid
+9,14,35,Sports Cap 5,Fashion,3212.28,3.3,0.5328890143609474,hybrid
+10,14,48,Mouse Pad 6,Gaming,11754.51,4.83,0.5318886245991434,hybrid
+1,15,5,Football,Sports & Fitness,10435.11,4.12,0.9019777208996458,hybrid
+2,15,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.8525714220370749,hybrid
+3,15,11,Casual Shirt 2,Fashion,12226.19,4.26,0.760922849364627,hybrid
+4,15,45,Dumbbells 6,Sports & Fitness,9628.14,4.15,0.7543516469775257,hybrid
+5,15,10,Blender 2,Home & Kitchen,14798.82,4.12,0.7428414536077117,hybrid
+6,15,27,Sunglasses 4,Fashion,2578.53,3.76,0.6772441072315586,hybrid
+7,15,8,Gaming Mouse,Gaming,19093.55,3.54,0.6301979947939027,hybrid
+8,15,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.6007045760262794,hybrid
+9,15,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.5904107524666932,hybrid
+10,15,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,0.5804191792868978,hybrid
+1,16,10,Blender 2,Home & Kitchen,14798.82,4.12,0.8429082166721993,hybrid
+2,16,14,Hair Dryer 2,Beauty,6262.01,4.25,0.8169273003559696,hybrid
+3,16,3,Denim Jacket,Fashion,8693.35,3.93,0.7299007332839892,hybrid
+4,16,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,0.7155947330797541,hybrid
+5,16,27,Sunglasses 4,Fashion,2578.53,3.76,0.6991450041459366,hybrid
+6,16,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.6719191196336154,hybrid
+7,16,30,Moisturizer 4,Beauty,6046.49,4.43,0.6580468902317467,hybrid
+8,16,1,Wireless Headphones,Electronics,12435.12,4.18,0.6458915717082687,hybrid
+9,16,4,Deep Learning,Books,1364.27,4.49,0.6204031910997386,hybrid
+10,16,22,Face Wash 3,Beauty,7161.03,3.4,0.6196188630445371,hybrid
+1,17,8,Gaming Mouse,Gaming,19093.55,3.54,0.792192340173699,hybrid
+2,17,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,0.6425066918563285,hybrid
+3,17,21,Gym Gloves 3,Sports & Fitness,8530.51,4.25,0.636025648486099,hybrid
+4,17,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.6270164299130156,hybrid
+5,17,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.6263843506141237,hybrid
+6,17,14,Hair Dryer 2,Beauty,6262.01,4.25,0.6165860458817232,hybrid
+7,17,19,Backpack 3,Fashion,14194.52,3.63,0.5882595253895059,hybrid
+8,17,25,USB-C Hub 4,Electronics,6292.44,4.15,0.5455339496002549,hybrid
+9,17,40,Gaming Headset 5,Gaming,36601.41,4.47,0.5280020057986496,hybrid
+10,17,28,Cloud Computing 4,Books,6065.7,3.43,0.5196031460424281,hybrid

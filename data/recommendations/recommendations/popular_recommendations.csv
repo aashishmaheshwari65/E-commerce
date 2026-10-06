@@ -1,0 +1,51 @@
+rank,user_id,product_id,product_name,category,price,rating,recommendation_score,recommendation_method
+1,1,3,Denim Jacket,Fashion,8693.35,3.93,0.8763360958910104,popular
+2,1,6,Lip Balm,Beauty,6866.16,4.41,0.8738089005964548,popular
+3,1,5,Football,Sports & Fitness,10435.11,4.12,0.8646442209186904,popular
+4,1,2,Coffee Maker,Home & Kitchen,14861.32,3.91,0.8353260504919272,popular
+5,1,4,Deep Learning,Books,1364.27,4.49,0.7729457902752772,popular
+6,1,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.6924996439729595,popular
+7,1,10,Blender 2,Home & Kitchen,14798.82,4.12,0.6161108534279769,popular
+8,1,7,Whiteboard,Office,1166.83,4.44,0.6105193062126918,popular
+9,1,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.5632716140237262,popular
+10,1,12,Algorithms in Practice 2,Books,1668.44,3.88,0.5517730677013595,popular
+1,10,1,Wireless Headphones,Electronics,12435.12,4.18,0.9730848861283644,popular
+2,10,3,Denim Jacket,Fashion,8693.35,3.93,0.8763360958910104,popular
+3,10,4,Deep Learning,Books,1364.27,4.49,0.7729457902752772,popular
+4,10,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.6924996439729595,popular
+5,10,11,Casual Shirt 2,Fashion,12226.19,4.26,0.6528417322565272,popular
+6,10,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.5632716140237262,popular
+7,10,12,Algorithms in Practice 2,Books,1668.44,3.88,0.5517730677013595,popular
+8,10,8,Gaming Mouse,Gaming,19093.55,3.54,0.5480056518795443,popular
+9,10,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.4758096267059795,popular
+10,10,16,Gaming Keyboard 2,Gaming,28806.38,3.4,0.4700297365452939,popular
+1,100,1,Wireless Headphones,Electronics,12435.12,4.18,0.9730848861283644,popular
+2,100,3,Denim Jacket,Fashion,8693.35,3.93,0.8763360958910104,popular
+3,100,6,Lip Balm,Beauty,6866.16,4.41,0.8738089005964548,popular
+4,100,5,Football,Sports & Fitness,10435.11,4.12,0.8646442209186904,popular
+5,100,2,Coffee Maker,Home & Kitchen,14861.32,3.91,0.8353260504919272,popular
+6,100,4,Deep Learning,Books,1364.27,4.49,0.7729457902752772,popular
+7,100,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.6924996439729595,popular
+8,100,11,Casual Shirt 2,Fashion,12226.19,4.26,0.6528417322565272,popular
+9,100,10,Blender 2,Home & Kitchen,14798.82,4.12,0.6161108534279769,popular
+10,100,7,Whiteboard,Office,1166.83,4.44,0.6105193062126918,popular
+1,11,3,Denim Jacket,Fashion,8693.35,3.93,0.8763360958910104,popular
+2,11,5,Football,Sports & Fitness,10435.11,4.12,0.8646442209186904,popular
+3,11,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.6924996439729595,popular
+4,11,7,Whiteboard,Office,1166.83,4.44,0.6105193062126918,popular
+5,11,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.5632716140237262,popular
+6,11,8,Gaming Mouse,Gaming,19093.55,3.54,0.5480056518795443,popular
+7,11,18,Desk Lamp 3,Home & Kitchen,15603.76,4.63,0.4758096267059795,popular
+8,11,16,Gaming Keyboard 2,Gaming,28806.38,3.4,0.4700297365452939,popular
+9,11,14,Hair Dryer 2,Beauty,6262.01,4.25,0.4611377855144597,popular
+10,11,26,Water Bottle 4,Home & Kitchen,11222.0,4.21,0.4342348972268609,popular
+1,12,6,Lip Balm,Beauty,6866.16,4.41,0.8738089005964548,popular
+2,12,2,Coffee Maker,Home & Kitchen,14861.32,3.91,0.8353260504919272,popular
+3,12,4,Deep Learning,Books,1364.27,4.49,0.7729457902752772,popular
+4,12,9,Bluetooth Speaker 2,Electronics,4901.71,4.11,0.6924996439729595,popular
+5,12,11,Casual Shirt 2,Fashion,12226.19,4.26,0.6528417322565272,popular
+6,12,10,Blender 2,Home & Kitchen,14798.82,4.12,0.6161108534279769,popular
+7,12,13,Skipping Rope 2,Sports & Fitness,13169.05,3.84,0.5632716140237262,popular
+8,12,12,Algorithms in Practice 2,Books,1668.44,3.88,0.5517730677013595,popular
+9,12,8,Gaming Mouse,Gaming,19093.55,3.54,0.5480056518795443,popular
+10,12,16,Gaming Keyboard 2,Gaming,28806.38,3.4,0.4700297365452939,popular
