@@ -1,0 +1,60 @@
+{
+  "model_type": "segmentation",
+  "model_name": "kmeans_k3",
+  "version": "20261006_235046",
+  "training_timestamp": "2026-10-06T23:50:48.907128",
+  "training_data_source": "data/ml_pipeline/features/segmentation_features.parquet",
+  "feature_count": 3,
+  "training_rows": 98,
+  "status": "selected",
+  "metrics": {
+    "domain": "segmentation",
+    "primary_metric": "silhouette_score",
+    "selected_model": "kmeans_k3",
+    "selected_score": 0.4681768846240983,
+    "candidates": [
+      {
+        "model_name": "kmeans_k3",
+        "k": 3,
+        "silhouette_score": 0.4681768846240983,
+        "inertia": 80.01625254231527,
+        "cluster_balance": 0.2830188679245283,
+        "cluster_counts": {
+          "0": 53,
+          "2": 30,
+          "1": 15
+        },
+        "selected": true
+      },
+      {
+        "model_name": "kmeans_k4",
+        "k": 4,
+        "silhouette_score": 0.4123287085812702,
+        "inertia": 63.67769144825957,
+        "cluster_balance": 0.358974358974359,
+        "cluster_counts": {
+          "3": 39,
+          "2": 23,
+          "0": 22,
+          "1": 14
+        },
+        "selected": false
+      },
+      {
+        "model_name": "kmeans_k5",
+        "k": 5,
+        "silhouette_score": 0.3951290334193541,
+        "inertia": 52.030142388548484,
+        "cluster_balance": 0.4444444444444444,
+        "cluster_counts": {
+          "4": 27,
+          "3": 26,
+          "1": 20,
+          "0": 13,
+          "2": 12
+        },
+        "selected": false
+      }
+    ]
+  }
+}

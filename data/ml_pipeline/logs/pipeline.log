@@ -1,0 +1,198 @@
+[2026-10-06 23:50:45,074] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:50:45,090] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4222)
+[2026-10-06 23:50:45,316] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:50:45,418] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: logistic_regression (ROC-AUC: 0.7500)
+[2026-10-06 23:50:45,445] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:50:45,623] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:50:45,628] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:50:45,633] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:50:45,679] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:50:45,681] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:50:45,686] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:50:45,690] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:50:45,695] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:50:45,723] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:50:45,767] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:50:46,355] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:50:46,359] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:50:46,366] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:50:46,371] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:50:46,375] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:50:46,417] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:50:46,447] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:50:46,447] [INFO] [pipeline]: === STEP 2: MODEL TRAINING ===
+[2026-10-06 23:50:46,604] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:50:46,843] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:50:47,169] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:50:47,229] [INFO] [training_pipeline]: Trained candidate recommendation models.
+[2026-10-06 23:50:47,229] [INFO] [pipeline]: === STEP 3: MODEL EVALUATION & SELECTION ===
+[2026-10-06 23:50:47,239] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4682)
+[2026-10-06 23:50:47,319] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: random_forest (ROC-AUC: 0.9867)
+[2026-10-06 23:50:47,354] [INFO] [evaluation_pipeline]: Sales forecasting evaluation completed. Best model: ridge (sMAPE: 9.28%)
+[2026-10-06 23:50:48,898] [INFO] [evaluation_pipeline]: Recommendation evaluation completed. Best model: collaborative (NDCG@10: 0.2188)
+[2026-10-06 23:50:48,899] [INFO] [pipeline]: === STEP 4: MODEL REGISTRY & SAVE ===
+[2026-10-06 23:50:48,911] [INFO] [model_registry]: Successfully saved segmentation model version '20261006_235046' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\segmentation\20261006_235046
+[2026-10-06 23:50:48,939] [INFO] [model_registry]: Successfully saved churn model version '20261006_235046' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_235046
+[2026-10-06 23:50:48,945] [INFO] [model_registry]: Successfully saved forecasting model version '20261006_235046' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\forecasting\20261006_235046
+[2026-10-06 23:50:48,953] [INFO] [model_registry]: Successfully saved recommendation model version '20261006_235046' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\recommendation\20261006_235046
+[2026-10-06 23:50:48,960] [INFO] [pipeline]: Successfully generated pipeline reports.
+[2026-10-06 23:50:49,008] [INFO] [model_registry]: Successfully saved churn model version '20261006_999999' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_999999
+[2026-10-06 23:50:49,168] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:50:49,334] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:50:49,503] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:51:54,437] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:51:54,445] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4222)
+[2026-10-06 23:51:54,575] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:51:54,655] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: random_forest (ROC-AUC: 1.0000)
+[2026-10-06 23:51:54,674] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:51:54,746] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:51:54,750] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:51:54,752] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:51:54,773] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:51:54,775] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:51:54,778] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:51:54,781] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:51:54,783] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:51:54,806] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:51:54,826] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:51:54,829] [INFO] [pipeline]: Features-only execution finished successfully.
+[2026-10-06 23:51:54,833] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:51:54,835] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:51:54,838] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:51:54,842] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:51:54,844] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:51:54,868] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:51:54,889] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:51:54,889] [INFO] [pipeline]: === STEP 2: MODEL TRAINING ===
+[2026-10-06 23:51:55,012] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:51:55,164] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:51:55,411] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:51:55,454] [INFO] [training_pipeline]: Trained candidate recommendation models.
+[2026-10-06 23:51:55,455] [INFO] [pipeline]: === STEP 3: MODEL EVALUATION & SELECTION ===
+[2026-10-06 23:51:55,464] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4682)
+[2026-10-06 23:51:55,538] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: random_forest (ROC-AUC: 0.9867)
+[2026-10-06 23:51:55,567] [INFO] [evaluation_pipeline]: Sales forecasting evaluation completed. Best model: ridge (sMAPE: 9.28%)
+[2026-10-06 23:51:56,833] [INFO] [evaluation_pipeline]: Recommendation evaluation completed. Best model: collaborative (NDCG@10: 0.2188)
+[2026-10-06 23:51:56,833] [INFO] [pipeline]: === STEP 4: MODEL REGISTRY & SAVE ===
+[2026-10-06 23:51:56,846] [INFO] [model_registry]: Successfully saved segmentation model version '20261006_235154' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\segmentation\20261006_235154
+[2026-10-06 23:51:56,872] [INFO] [model_registry]: Successfully saved churn model version '20261006_235154' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_235154
+[2026-10-06 23:51:56,880] [INFO] [model_registry]: Successfully saved forecasting model version '20261006_235154' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\forecasting\20261006_235154
+[2026-10-06 23:51:56,890] [INFO] [model_registry]: Successfully saved recommendation model version '20261006_235154' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\recommendation\20261006_235154
+[2026-10-06 23:51:56,896] [INFO] [pipeline]: Successfully generated pipeline reports.
+[2026-10-06 23:51:56,900] [INFO] [pipeline]: === AUTOMATED ML PIPELINE EXECUTION PASSED (Run ID: 20261006_235154) ===
+[2026-10-06 23:51:56,926] [INFO] [model_registry]: Successfully saved churn model version '20261006_999999' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_999999
+[2026-10-06 23:51:57,088] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:51:57,224] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:51:57,396] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:52:11,857] [INFO] [main]: Initializing Automated ML Pipeline Execution...
+[2026-10-06 23:52:11,859] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:52:11,861] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:52:11,903] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:52:11,907] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:52:11,910] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:52:11,932] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:52:11,952] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:52:11,955] [INFO] [pipeline]: Features-only execution finished successfully.
+[2026-10-06 23:52:28,995] [INFO] [main]: Initializing Automated ML Pipeline Execution...
+[2026-10-06 23:52:28,997] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:52:28,999] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:52:29,045] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:52:29,048] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:52:29,052] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:52:29,076] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:52:29,102] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:52:29,102] [INFO] [pipeline]: === STEP 2: MODEL TRAINING ===
+[2026-10-06 23:52:29,534] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:52:29,720] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:52:30,007] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:52:30,047] [INFO] [training_pipeline]: Trained candidate recommendation models.
+[2026-10-06 23:52:30,047] [INFO] [pipeline]: === STEP 3: MODEL EVALUATION & SELECTION ===
+[2026-10-06 23:52:30,058] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4682)
+[2026-10-06 23:52:30,140] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: random_forest (ROC-AUC: 0.9867)
+[2026-10-06 23:52:30,175] [INFO] [evaluation_pipeline]: Sales forecasting evaluation completed. Best model: ridge (sMAPE: 9.28%)
+[2026-10-06 23:52:31,433] [INFO] [evaluation_pipeline]: Recommendation evaluation completed. Best model: collaborative (NDCG@10: 0.2188)
+[2026-10-06 23:52:31,433] [INFO] [pipeline]: === STEP 4: MODEL REGISTRY & SAVE ===
+[2026-10-06 23:52:31,447] [INFO] [model_registry]: Successfully saved segmentation model version '20261006_235228' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\segmentation\20261006_235228
+[2026-10-06 23:52:31,486] [INFO] [model_registry]: Successfully saved churn model version '20261006_235228' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_235228
+[2026-10-06 23:52:31,496] [INFO] [model_registry]: Successfully saved forecasting model version '20261006_235228' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\forecasting\20261006_235228
+[2026-10-06 23:52:31,505] [INFO] [model_registry]: Successfully saved recommendation model version '20261006_235228' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\recommendation\20261006_235228
+[2026-10-06 23:52:31,512] [INFO] [pipeline]: Successfully generated pipeline reports.
+[2026-10-06 23:52:31,515] [INFO] [pipeline]: === AUTOMATED ML PIPELINE EXECUTION PASSED (Run ID: 20261006_235228) ===
+[2026-10-06 23:55:25,760] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:55:25,768] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4222)
+[2026-10-06 23:55:25,956] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:55:26,038] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: random_forest (ROC-AUC: 0.7500)
+[2026-10-06 23:55:26,058] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:55:26,130] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:55:26,133] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:55:26,135] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:55:26,156] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:55:26,158] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:55:26,161] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:55:26,164] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:55:26,167] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:55:26,190] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:55:26,216] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:55:26,220] [INFO] [pipeline]: Features-only execution finished successfully.
+[2026-10-06 23:55:26,225] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:55:26,227] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:55:26,232] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:55:26,236] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:55:26,239] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:55:26,264] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:55:26,283] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:55:26,283] [INFO] [pipeline]: === STEP 2: MODEL TRAINING ===
+[2026-10-06 23:55:26,423] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:55:26,649] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:55:26,923] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:55:26,972] [INFO] [training_pipeline]: Trained candidate recommendation models.
+[2026-10-06 23:55:26,972] [INFO] [pipeline]: === STEP 3: MODEL EVALUATION & SELECTION ===
+[2026-10-06 23:55:26,980] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4682)
+[2026-10-06 23:55:27,050] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: random_forest (ROC-AUC: 0.9867)
+[2026-10-06 23:55:27,084] [INFO] [evaluation_pipeline]: Sales forecasting evaluation completed. Best model: ridge (sMAPE: 9.28%)
+[2026-10-06 23:55:28,106] [INFO] [evaluation_pipeline]: Recommendation evaluation completed. Best model: collaborative (NDCG@10: 0.2188)
+[2026-10-06 23:55:28,107] [INFO] [pipeline]: === STEP 4: MODEL REGISTRY & SAVE ===
+[2026-10-06 23:55:28,118] [INFO] [model_registry]: Successfully saved segmentation model version '20261006_235526' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\segmentation\20261006_235526
+[2026-10-06 23:55:28,152] [INFO] [model_registry]: Successfully saved churn model version '20261006_235526' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_235526
+[2026-10-06 23:55:28,161] [INFO] [model_registry]: Successfully saved forecasting model version '20261006_235526' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\forecasting\20261006_235526
+[2026-10-06 23:55:28,170] [INFO] [model_registry]: Successfully saved recommendation model version '20261006_235526' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\recommendation\20261006_235526
+[2026-10-06 23:55:28,174] [INFO] [pipeline]: Successfully generated pipeline reports.
+[2026-10-06 23:55:28,179] [INFO] [pipeline]: === AUTOMATED ML PIPELINE EXECUTION PASSED (Run ID: 20261006_235526) ===
+[2026-10-06 23:55:28,211] [INFO] [model_registry]: Successfully saved churn model version '20261006_999999' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_999999
+[2026-10-06 23:55:28,376] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:55:28,540] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:55:28,714] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:55:45,795] [INFO] [main]: Initializing Automated ML Pipeline Execution...
+[2026-10-06 23:55:45,796] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:55:45,798] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:55:45,839] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:55:45,842] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:55:45,845] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:55:45,869] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:55:45,891] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:55:45,894] [INFO] [pipeline]: Features-only execution finished successfully.
+[2026-10-06 23:56:20,894] [INFO] [main]: Initializing Automated ML Pipeline Execution...
+[2026-10-06 23:56:20,897] [INFO] [pipeline]: === STEP 1: FEATURE ENGINEERING ===
+[2026-10-06 23:56:20,900] [INFO] [feature_pipeline]: Loading sales data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\facts\fact_sales.parquet
+[2026-10-06 23:56:20,958] [INFO] [feature_pipeline]: Loading customer data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_customer.parquet
+[2026-10-06 23:56:20,962] [INFO] [feature_pipeline]: Loading product data from C:\Users\Lenovo\Downloads\E-Commerce\data\warehouse\dimensions\dim_product.parquet
+[2026-10-06 23:56:20,966] [INFO] [feature_pipeline]: Loading interaction data from C:\Users\Lenovo\Downloads\E-Commerce\data\recommendations\interactions\user_product_interactions.parquet
+[2026-10-06 23:56:20,991] [WARNING] [feature_pipeline]: Sales data insufficient for sales features. Returning synthetic daily sales set.
+[2026-10-06 23:56:21,018] [INFO] [feature_pipeline]: Successfully generated and validated all feature Parquet datasets.
+[2026-10-06 23:56:21,018] [INFO] [pipeline]: === STEP 2: MODEL TRAINING ===
+[2026-10-06 23:56:21,269] [INFO] [training_pipeline]: Trained 3 K-Means candidate segmentation models.
+[2026-10-06 23:56:21,463] [INFO] [training_pipeline]: Trained 3 candidate churn prediction models.
+[2026-10-06 23:56:21,765] [INFO] [training_pipeline]: Trained 3 candidate sales forecasting models.
+[2026-10-06 23:56:21,812] [INFO] [training_pipeline]: Trained candidate recommendation models.
+[2026-10-06 23:56:21,813] [INFO] [pipeline]: === STEP 3: MODEL EVALUATION & SELECTION ===
+[2026-10-06 23:56:21,822] [INFO] [evaluation_pipeline]: Segmentation evaluation completed. Best model: kmeans_k3 (Silhouette: 0.4682)
+[2026-10-06 23:56:21,916] [INFO] [evaluation_pipeline]: Churn evaluation completed. Best model: random_forest (ROC-AUC: 0.9867)
+[2026-10-06 23:56:21,961] [INFO] [evaluation_pipeline]: Sales forecasting evaluation completed. Best model: ridge (sMAPE: 9.28%)
+[2026-10-06 23:56:23,750] [INFO] [evaluation_pipeline]: Recommendation evaluation completed. Best model: collaborative (NDCG@10: 0.2188)
+[2026-10-06 23:56:23,751] [INFO] [pipeline]: === STEP 4: MODEL REGISTRY & SAVE ===
+[2026-10-06 23:56:23,761] [INFO] [model_registry]: Successfully saved segmentation model version '20261006_235620' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\segmentation\20261006_235620
+[2026-10-06 23:56:23,789] [INFO] [model_registry]: Successfully saved churn model version '20261006_235620' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\churn\20261006_235620
+[2026-10-06 23:56:23,799] [INFO] [model_registry]: Successfully saved forecasting model version '20261006_235620' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\forecasting\20261006_235620
+[2026-10-06 23:56:23,814] [INFO] [model_registry]: Successfully saved recommendation model version '20261006_235620' to C:\Users\Lenovo\Downloads\E-Commerce\data\models\recommendation\20261006_235620
+[2026-10-06 23:56:23,822] [INFO] [pipeline]: Successfully generated pipeline reports.
+[2026-10-06 23:56:23,829] [INFO] [pipeline]: === AUTOMATED ML PIPELINE EXECUTION PASSED (Run ID: 20261006_235620) ===

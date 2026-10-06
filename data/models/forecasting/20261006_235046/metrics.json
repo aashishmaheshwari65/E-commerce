@@ -1,0 +1,32 @@
+{
+  "domain": "forecasting",
+  "primary_metric": "smape",
+  "selected_model": "ridge",
+  "selected_score": 9.281636158898433,
+  "candidates": [
+    {
+      "model_name": "random_forest",
+      "smape": 10.92471269336801,
+      "mae": 52.650335513969324,
+      "rmse": 64.84905029301444,
+      "r2": 0.2895741547054067,
+      "selected": false
+    },
+    {
+      "model_name": "hist_gradient_boosting",
+      "smape": 12.262635979893373,
+      "mae": 59.80553207579932,
+      "rmse": 71.96536627618705,
+      "r2": 0.12509964570504206,
+      "selected": false
+    },
+    {
+      "model_name": "ridge",
+      "smape": 9.281636158898433,
+      "mae": 44.59769787078994,
+      "rmse": 57.09422522661318,
+      "r2": 0.449324341264813,
+      "selected": true
+    }
+  ]
+}

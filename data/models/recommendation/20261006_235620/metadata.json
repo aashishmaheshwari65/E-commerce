@@ -1,0 +1,50 @@
+{
+  "model_type": "recommendation",
+  "model_name": "collaborative",
+  "version": "20261006_235620",
+  "training_timestamp": "2026-10-06T23:56:23.808898",
+  "training_data_source": "data/ml_pipeline/features/recommendation_features.parquet",
+  "feature_count": 0,
+  "training_rows": 874,
+  "status": "selected",
+  "metrics": {
+    "domain": "recommendation",
+    "primary_metric": "ndcg_10",
+    "selected_model": "collaborative",
+    "selected_score": 0.21879106612880017,
+    "candidates": [
+      {
+        "model_name": "popular",
+        "ndcg_10": 0.1018015911321497,
+        "precision_10": 0.02765957446808511,
+        "recall_10": 0.2765957446808511,
+        "catalog_coverage": 0.2,
+        "selected": false
+      },
+      {
+        "model_name": "collaborative",
+        "ndcg_10": 0.21879106612880017,
+        "precision_10": 0.049999999999999996,
+        "recall_10": 0.5,
+        "catalog_coverage": 0.72,
+        "selected": true
+      },
+      {
+        "model_name": "content",
+        "ndcg_10": 0.06778847287068937,
+        "precision_10": 0.013829787234042556,
+        "recall_10": 0.13829787234042554,
+        "catalog_coverage": 1.0,
+        "selected": false
+      },
+      {
+        "model_name": "hybrid",
+        "ndcg_10": 0.1505894553483559,
+        "precision_10": 0.03617021276595745,
+        "recall_10": 0.3617021276595745,
+        "catalog_coverage": 0.9,
+        "selected": false
+      }
+    ]
+  }
+}

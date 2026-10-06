@@ -1,0 +1,130 @@
+[
+  {
+    "run_id": "20261006_235620",
+    "version": "20261006_235620",
+    "start_time": "2026-10-06T23:56:20.896994",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "success",
+    "evaluation_status": "success",
+    "model_save_status": "success",
+    "selected_models": {
+      "segmentation": "kmeans_k3",
+      "churn": "random_forest",
+      "forecasting": "ridge",
+      "recommendation": "collaborative"
+    },
+    "errors": [],
+    "end_time": "2026-10-06T23:56:23.815011",
+    "duration_seconds": 2.92
+  },
+  {
+    "run_id": "20261006_235545",
+    "version": "20261006_235545",
+    "start_time": "2026-10-06T23:55:45.796819",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "pending",
+    "evaluation_status": "pending",
+    "model_save_status": "pending",
+    "selected_models": {},
+    "errors": [],
+    "end_time": "2026-10-06T23:55:45.891642"
+  },
+  {
+    "run_id": "20261006_235526",
+    "version": "20261006_235526",
+    "start_time": "2026-10-06T23:55:26.225376",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "success",
+    "evaluation_status": "success",
+    "model_save_status": "success",
+    "selected_models": {
+      "segmentation": "kmeans_k3",
+      "churn": "random_forest",
+      "forecasting": "ridge",
+      "recommendation": "collaborative"
+    },
+    "errors": [],
+    "end_time": "2026-10-06T23:55:28.170737",
+    "duration_seconds": 1.95
+  },
+  {
+    "run_id": "20261006_235526",
+    "version": "20261006_235526",
+    "start_time": "2026-10-06T23:55:26.156928",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "pending",
+    "evaluation_status": "pending",
+    "model_save_status": "pending",
+    "selected_models": {},
+    "errors": [],
+    "end_time": "2026-10-06T23:55:26.216674"
+  },
+  {
+    "run_id": "20261006_235228",
+    "version": "20261006_235228",
+    "start_time": "2026-10-06T23:52:28.997473",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "success",
+    "evaluation_status": "success",
+    "model_save_status": "success",
+    "selected_models": {
+      "segmentation": "kmeans_k3",
+      "churn": "random_forest",
+      "forecasting": "ridge",
+      "recommendation": "collaborative"
+    },
+    "errors": [],
+    "end_time": "2026-10-06T23:52:31.505702",
+    "duration_seconds": 2.51
+  },
+  {
+    "run_id": "20261006_235211",
+    "version": "20261006_235211",
+    "start_time": "2026-10-06T23:52:11.859390",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "pending",
+    "evaluation_status": "pending",
+    "model_save_status": "pending",
+    "selected_models": {},
+    "errors": [],
+    "end_time": "2026-10-06T23:52:11.952423"
+  },
+  {
+    "run_id": "20261006_235154",
+    "version": "20261006_235154",
+    "start_time": "2026-10-06T23:51:54.833623",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "success",
+    "evaluation_status": "success",
+    "model_save_status": "success",
+    "selected_models": {
+      "segmentation": "kmeans_k3",
+      "churn": "random_forest",
+      "forecasting": "ridge",
+      "recommendation": "collaborative"
+    },
+    "errors": [],
+    "end_time": "2026-10-06T23:51:56.890822",
+    "duration_seconds": 2.06
+  },
+  {
+    "run_id": "20261006_235154",
+    "version": "20261006_235154",
+    "start_time": "2026-10-06T23:51:54.773866",
+    "status": "success",
+    "feature_status": "success",
+    "training_status": "pending",
+    "evaluation_status": "pending",
+    "model_save_status": "pending",
+    "selected_models": {},
+    "errors": [],
+    "end_time": "2026-10-06T23:51:54.826543"
+  }
+]
