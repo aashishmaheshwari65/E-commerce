@@ -72,6 +72,8 @@ def _compute_overall(
     ]
 
     if not relevant:
+        if any(s == ComponentStatus.NOT_CONFIGURED for s in statuses.values()):
+            return ComponentStatus.NOT_CONFIGURED
         return ComponentStatus.UNKNOWN
 
     if ComponentStatus.CRITICAL in relevant:

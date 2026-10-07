@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-10-07T17:33:58.656110+00:00",
+    "timestamp": "2026-10-07T18:06:58.538970+00:00",
     "severity": "CRITICAL",
     "component": "data_quality",
     "metric": "null_percentage[user_events]",

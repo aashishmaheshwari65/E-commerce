@@ -131,14 +131,9 @@ def _collect_all(args: argparse.Namespace) -> None:
         print(safe_text)
 
 
-    # Exit code
     status = snapshot.overall_status
     if status == ComponentStatus.CRITICAL:
-        sys.exit(2)
-    elif status == ComponentStatus.WARNING:
         sys.exit(1)
-    elif status == ComponentStatus.UNKNOWN:
-        sys.exit(3)
     else:
         sys.exit(0)
 

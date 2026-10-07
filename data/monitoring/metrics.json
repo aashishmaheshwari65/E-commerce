@@ -1,6 +1,6 @@
 {
-  "run_id": "20261007_173346",
-  "timestamp": "2026-10-07T17:33:58.656265+00:00",
+  "run_id": "20261007_180646",
+  "timestamp": "2026-10-07T18:06:58.539120+00:00",
   "overall_status": "CRITICAL",
   "components": {
     "data_quality": {
@@ -21,11 +21,11 @@
             "duplicate_pk_count": 0,
             "freshness": {
               "latest_timestamp": "2026-08-08 00:00:00",
-              "age_hours": 1457.56,
+              "age_hours": 1458.11,
               "status": "CRITICAL"
             },
             "errors": [
-              "users data is 1457.6h old (threshold: 72.0h)"
+              "users data is 1458.1h old (threshold: 72.0h)"
             ],
             "warnings": []
           },
@@ -54,11 +54,11 @@
             "duplicate_pk_count": 0,
             "freshness": {
               "latest_timestamp": "2026-08-31 00:00:00",
-              "age_hours": 905.56,
+              "age_hours": 906.11,
               "status": "CRITICAL"
             },
             "errors": [
-              "orders data is 905.6h old (threshold: 72.0h)"
+              "orders data is 906.1h old (threshold: 72.0h)"
             ],
             "warnings": []
           },
@@ -87,11 +87,11 @@
             "duplicate_pk_count": 0,
             "freshness": {
               "latest_timestamp": "2026-08-31 00:00:00",
-              "age_hours": 905.56,
+              "age_hours": 906.11,
               "status": "CRITICAL"
             },
             "errors": [
-              "payments data is 905.6h old (threshold: 72.0h)"
+              "payments data is 906.1h old (threshold: 72.0h)"
             ],
             "warnings": []
           },
@@ -105,11 +105,11 @@
             "duplicate_pk_count": 0,
             "freshness": {
               "latest_timestamp": "2026-08-18 00:00:00",
-              "age_hours": 1217.56,
+              "age_hours": 1218.11,
               "status": "CRITICAL"
             },
             "errors": [
-              "reviews data is 1217.6h old (threshold: 72.0h)"
+              "reviews data is 1218.1h old (threshold: 72.0h)"
             ],
             "warnings": []
           },
@@ -123,11 +123,11 @@
             "duplicate_pk_count": 0,
             "freshness": {
               "latest_timestamp": "2026-08-31 18:44:45",
-              "age_hours": 886.82,
+              "age_hours": 887.37,
               "status": "CRITICAL"
             },
             "errors": [
-              "user_events data is 886.8h old (threshold: 72.0h)"
+              "user_events data is 887.4h old (threshold: 72.0h)"
             ],
             "warnings": [
               "Null percentage 25.3% exceeds threshold 5.0%"
@@ -177,7 +177,7 @@
             "last_run": "2026-10-06T23:56:20.896994",
             "last_run_status": "success",
             "last_successful_run": "2026-10-06T23:56:23.815011",
-            "hours_since_success": 17.62,
+            "hours_since_success": 18.17,
             "selected_models": {
               "segmentation": "kmeans_k3",
               "churn": "random_forest",
@@ -212,10 +212,10 @@
             "accessible": true,
             "dags": {
               "automated_ml_pipeline": {
-                "error": "HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /api/v1/dags/automated_ml_pipeline (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360D90AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+                "error": "HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /api/v1/dags/automated_ml_pipeline (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B09B9D0C20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
               },
               "ecommerce_data_pipeline": {
-                "error": "HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /api/v1/dags/ecommerce_data_pipeline (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360D5A0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+                "error": "HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /api/v1/dags/ecommerce_data_pipeline (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B09B99A210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
               }
             },
             "status": "HEALTHY"
@@ -238,7 +238,7 @@
             "model_available": true,
             "version": "20261006_235620",
             "training_timestamp": "2026-10-06T23:56:23.785636",
-            "age_days": 0.73,
+            "age_days": 0.76,
             "age_status": "HEALTHY",
             "selected_model": "random_forest",
             "feature_count": 4,
@@ -261,7 +261,7 @@
             "model_available": true,
             "version": "20261006_235620",
             "training_timestamp": "2026-10-06T23:56:23.755785",
-            "age_days": 0.73,
+            "age_days": 0.76,
             "age_status": "HEALTHY",
             "selected_model": "kmeans_k3",
             "feature_count": 3,
@@ -287,7 +287,7 @@
             "model_available": true,
             "version": "20261006_235620",
             "training_timestamp": "2026-10-06T23:56:23.794567",
-            "age_days": 0.73,
+            "age_days": 0.76,
             "age_status": "HEALTHY",
             "selected_model": "ridge",
             "feature_count": 5,
@@ -308,7 +308,7 @@
             "model_available": true,
             "version": "20261006_235620",
             "training_timestamp": "2026-10-06T23:56:23.808898",
-            "age_days": 0.73,
+            "age_days": 0.76,
             "age_status": "HEALTHY",
             "selected_model": "collaborative",
             "feature_count": 0,
@@ -334,13 +334,13 @@
         "probes": [
           {
             "url": "http://127.0.0.1:8000/health",
-            "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360D5AFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+            "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B09B99B110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
             "ok": false,
             "endpoint": "health"
           },
           {
             "url": "http://127.0.0.1:8000/health/models",
-            "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /health/models (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360DA42B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+            "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /health/models (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B09B9E43E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
             "ok": false,
             "endpoint": "health_models"
           }

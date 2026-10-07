@@ -29,14 +29,13 @@ def _try_connect(bootstrap_servers: str, timeout_ms: int = 3000) -> dict:
     Attempt a lightweight Kafka broker connection.
     Returns a dict describing the result.
     """
-    # Import the library first; fall back immediately if unavailable
     try:
         from kafka import KafkaAdminClient  # type: ignore
         from kafka.errors import NoBrokersAvailable  # type: ignore
-    except ImportError:
+    except Exception as err:
         return {
             "reachable": False,
-            "error": "kafka-python not installed",
+            "error": f"kafka library import failed: {err}",
             "library_missing": True,
         }
 
