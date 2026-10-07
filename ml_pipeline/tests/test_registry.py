@@ -5,7 +5,7 @@ from ml_pipeline import model_registry, config
 
 def test_save_and_load_model():
     dummy_model = LogisticRegression()
-    dummy_model.fit([[1, 2], [3, 4]], [0, 1])
+    dummy_model.fit([[1, 2, 3, 4], [5, 6, 7, 8]], [0, 1])
 
     version = "20261006_999999"
     metadata = {"model_name": "logistic_regression", "test_key": "val"}
