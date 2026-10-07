@@ -1,0 +1,2 @@
+{"run_id": "20261007_173306", "timestamp": "2026-10-07T17:33:19.165143+00:00", "overall_status": "CRITICAL", "component_statuses": {"data_quality": "CRITICAL", "pipelines": "WARNING", "kafka": "NOT_CONFIGURED", "ml": "HEALTHY", "fastapi": "UNKNOWN"}, "alert_count": 1}
+{"run_id": "20261007_173346", "timestamp": "2026-10-07T17:33:58.656265+00:00", "overall_status": "CRITICAL", "component_statuses": {"data_quality": "CRITICAL", "pipelines": "WARNING", "kafka": "NOT_CONFIGURED", "ml": "HEALTHY", "fastapi": "UNKNOWN"}, "alert_count": 1}

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2026-10-07T17:33:58.656110+00:00",
+    "severity": "CRITICAL",
+    "component": "data_quality",
+    "metric": "null_percentage[user_events]",
+    "value": 25.26,
+    "threshold": 15.0,
+    "message": "null_percentage value 25.3 exceeds critical threshold 15 %"
+  }
+]

@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from api import config
-from api.routes import health, churn, forecasting, recommendation
+from api.routes import health, churn, forecasting, recommendation, monitoring
 from api.utils.errors import http_exception_handler, validation_exception_handler, unhandled_exception_handler
 
 # Configure logging
@@ -49,6 +49,7 @@ app.include_router(health.router)
 app.include_router(churn.router)
 app.include_router(forecasting.router)
 app.include_router(recommendation.router)
+app.include_router(monitoring.router)
 
 if __name__ == "__main__":
     import uvicorn

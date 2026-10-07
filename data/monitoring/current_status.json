@@ -1,0 +1,399 @@
+{
+  "run_id": "20261007_173346",
+  "timestamp": "2026-10-07T17:33:58.656265+00:00",
+  "overall_status": "CRITICAL",
+  "components": {
+    "data_quality": {
+      "component": "data_quality",
+      "status": "CRITICAL",
+      "timestamp": "2026-10-07T17:33:46.190609+00:00",
+      "metrics": {
+        "tables_checked": 7,
+        "rows_checked": 7479,
+        "null_violations": 7578,
+        "duplicate_pk_violations": 0,
+        "datasets": [
+          {
+            "dataset": "users",
+            "file_exists": true,
+            "row_count": 100,
+            "column_count": 7,
+            "null_count": 0,
+            "null_percentage": 0.0,
+            "duplicate_pk_count": 0,
+            "freshness": {
+              "latest_timestamp": "2026-08-08 00:00:00",
+              "age_hours": 1457.56,
+              "status": "CRITICAL"
+            },
+            "errors": [
+              "users data is 1457.6h old (threshold: 72.0h)"
+            ],
+            "warnings": []
+          },
+          {
+            "dataset": "products",
+            "file_exists": true,
+            "row_count": 50,
+            "column_count": 7,
+            "null_count": 0,
+            "null_percentage": 0.0,
+            "duplicate_pk_count": 0,
+            "freshness": {
+              "status": "UNKNOWN",
+              "reason": "no timestamp column defined"
+            },
+            "errors": [],
+            "warnings": []
+          },
+          {
+            "dataset": "orders",
+            "file_exists": true,
+            "row_count": 500,
+            "column_count": 6,
+            "null_count": 0,
+            "null_percentage": 0.0,
+            "duplicate_pk_count": 0,
+            "freshness": {
+              "latest_timestamp": "2026-08-31 00:00:00",
+              "age_hours": 905.56,
+              "status": "CRITICAL"
+            },
+            "errors": [
+              "orders data is 905.6h old (threshold: 72.0h)"
+            ],
+            "warnings": []
+          },
+          {
+            "dataset": "order_items",
+            "file_exists": true,
+            "row_count": 1129,
+            "column_count": 6,
+            "null_count": 0,
+            "null_percentage": 0.0,
+            "duplicate_pk_count": 0,
+            "freshness": {
+              "status": "UNKNOWN",
+              "reason": "no timestamp column defined"
+            },
+            "errors": [],
+            "warnings": []
+          },
+          {
+            "dataset": "payments",
+            "file_exists": true,
+            "row_count": 500,
+            "column_count": 6,
+            "null_count": 0,
+            "null_percentage": 0.0,
+            "duplicate_pk_count": 0,
+            "freshness": {
+              "latest_timestamp": "2026-08-31 00:00:00",
+              "age_hours": 905.56,
+              "status": "CRITICAL"
+            },
+            "errors": [
+              "payments data is 905.6h old (threshold: 72.0h)"
+            ],
+            "warnings": []
+          },
+          {
+            "dataset": "reviews",
+            "file_exists": true,
+            "row_count": 200,
+            "column_count": 6,
+            "null_count": 0,
+            "null_percentage": 0.0,
+            "duplicate_pk_count": 0,
+            "freshness": {
+              "latest_timestamp": "2026-08-18 00:00:00",
+              "age_hours": 1217.56,
+              "status": "CRITICAL"
+            },
+            "errors": [
+              "reviews data is 1217.6h old (threshold: 72.0h)"
+            ],
+            "warnings": []
+          },
+          {
+            "dataset": "user_events",
+            "file_exists": true,
+            "row_count": 5000,
+            "column_count": 6,
+            "null_count": 7578,
+            "null_percentage": 25.26,
+            "duplicate_pk_count": 0,
+            "freshness": {
+              "latest_timestamp": "2026-08-31 18:44:45",
+              "age_hours": 886.82,
+              "status": "CRITICAL"
+            },
+            "errors": [
+              "user_events data is 886.8h old (threshold: 72.0h)"
+            ],
+            "warnings": [
+              "Null percentage 25.3% exceeds threshold 5.0%"
+            ]
+          }
+        ]
+      },
+      "warnings": [
+        "Null percentage 25.3% exceeds threshold 5.0%"
+      ],
+      "errors": [
+        "users data is 1457.6h old (threshold: 72.0h)",
+        "orders data is 905.6h old (threshold: 72.0h)",
+        "payments data is 905.6h old (threshold: 72.0h)",
+        "reviews data is 1217.6h old (threshold: 72.0h)",
+        "user_events data is 886.8h old (threshold: 72.0h)"
+      ]
+    },
+    "pipelines": {
+      "component": "pipelines",
+      "status": "WARNING",
+      "timestamp": "2026-10-07T17:33:46.235320+00:00",
+      "metrics": {
+        "pipelines": [
+          {
+            "pipeline": "etl",
+            "output_dir_exists": true,
+            "output_file_count": 0,
+            "newest_output_age_hours": null,
+            "status": "UNKNOWN"
+          },
+          {
+            "pipeline": "data_lake",
+            "layers": {
+              "bronze": {
+                "exists": true,
+                "parquet_files": 7
+              },
+              "silver": {
+                "exists": true,
+                "parquet_files": 7
+              },
+              "gold": {
+                "exists": true,
+                "parquet_files": 2
+              }
+            },
+            "status": "HEALTHY"
+          },
+          {
+            "pipeline": "data_warehouse",
+            "fact_sales_exists": true,
+            "dimension_count": 5,
+            "status": "HEALTHY"
+          },
+          {
+            "pipeline": "automated_ml_pipeline",
+            "total_runs": 8,
+            "last_run": "2026-10-06T23:56:20.896994",
+            "last_run_status": "success",
+            "last_successful_run": "2026-10-06T23:56:23.815011",
+            "hours_since_success": 17.62,
+            "selected_models": {
+              "segmentation": "kmeans_k3",
+              "churn": "random_forest",
+              "forecasting": "ridge",
+              "recommendation": "collaborative"
+            },
+            "duration_seconds": 2.92,
+            "status": "HEALTHY"
+          },
+          {
+            "pipeline": "customer_segmentation",
+            "output_files": 2,
+            "status": "HEALTHY"
+          },
+          {
+            "pipeline": "churn_prediction",
+            "output_files": 3,
+            "status": "HEALTHY"
+          },
+          {
+            "pipeline": "sales_forecasting",
+            "output_files": 4,
+            "status": "HEALTHY"
+          },
+          {
+            "pipeline": "recommendation_system",
+            "output_files": 21,
+            "status": "HEALTHY"
+          },
+          {
+            "pipeline": "airflow",
+            "accessible": true,
+            "dags": {
+              "automated_ml_pipeline": {
+                "error": "HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /api/v1/dags/automated_ml_pipeline (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360D90AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+              },
+              "ecommerce_data_pipeline": {
+                "error": "HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /api/v1/dags/ecommerce_data_pipeline (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360D5A0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+              }
+            },
+            "status": "HEALTHY"
+          }
+        ]
+      },
+      "warnings": [
+        "etl: UNKNOWN"
+      ],
+      "errors": []
+    },
+    "kafka": {
+      "component": "kafka",
+      "status": "NOT_CONFIGURED",
+      "timestamp": "2026-10-07T17:33:54.510163+00:00",
+      "metrics": {},
+      "warnings": [
+        "Kafka is not currently configured or running. Kafka was intentionally deferred in this project.",
+        "kafka-python library is not installed."
+      ],
+      "errors": []
+    },
+    "ml": {
+      "component": "ml",
+      "status": "HEALTHY",
+      "timestamp": "2026-10-07T17:33:54.511788+00:00",
+      "metrics": {
+        "models_available": 4,
+        "domains_checked": 4,
+        "domains": [
+          {
+            "domain": "churn",
+            "model_available": true,
+            "version": "20261006_235620",
+            "training_timestamp": "2026-10-06T23:56:23.785636",
+            "age_days": 0.73,
+            "age_status": "HEALTHY",
+            "selected_model": "random_forest",
+            "feature_count": 4,
+            "training_rows": 78,
+            "metrics": {
+              "model_name": "random_forest",
+              "roc_auc": 0.9866666666666667,
+              "pr_auc": 0.9956944444444444,
+              "accuracy": 0.95,
+              "precision": 0.9375,
+              "recall": 1.0,
+              "f1": 0.967741935483871
+            },
+            "performance_status": "HEALTHY",
+            "warnings": [],
+            "errors": []
+          },
+          {
+            "domain": "segmentation",
+            "model_available": true,
+            "version": "20261006_235620",
+            "training_timestamp": "2026-10-06T23:56:23.755785",
+            "age_days": 0.73,
+            "age_status": "HEALTHY",
+            "selected_model": "kmeans_k3",
+            "feature_count": 3,
+            "training_rows": 98,
+            "metrics": {
+              "model_name": "kmeans_k3",
+              "k": 3,
+              "silhouette_score": 0.4681768846240983,
+              "inertia": 80.01625254231527,
+              "cluster_balance": 0.2830188679245283,
+              "cluster_counts": {
+                "0": 53,
+                "2": 30,
+                "1": 15
+              }
+            },
+            "performance_status": "HEALTHY",
+            "warnings": [],
+            "errors": []
+          },
+          {
+            "domain": "forecasting",
+            "model_available": true,
+            "version": "20261006_235620",
+            "training_timestamp": "2026-10-06T23:56:23.794567",
+            "age_days": 0.73,
+            "age_status": "HEALTHY",
+            "selected_model": "ridge",
+            "feature_count": 5,
+            "training_rows": 144,
+            "metrics": {
+              "model_name": "ridge",
+              "smape": 9.281636158898433,
+              "mae": 44.59769787078994,
+              "rmse": 57.09422522661318,
+              "r2": 0.449324341264813
+            },
+            "performance_status": "HEALTHY",
+            "warnings": [],
+            "errors": []
+          },
+          {
+            "domain": "recommendation",
+            "model_available": true,
+            "version": "20261006_235620",
+            "training_timestamp": "2026-10-06T23:56:23.808898",
+            "age_days": 0.73,
+            "age_status": "HEALTHY",
+            "selected_model": "collaborative",
+            "feature_count": 0,
+            "training_rows": 874,
+            "metrics": {
+              "model_name": "collaborative",
+              "ndcg_10": 0.21879106612880017,
+              "precision_10": 0.049999999999999996,
+              "recall_10": 0.5,
+              "catalog_coverage": 0.72
+            },
+            "performance_status": "HEALTHY",
+            "warnings": [],
+            "errors": []
+          }
+        ]
+      },
+      "warnings": [],
+      "errors": []
+    },
+    "fastapi": {
+      "component": "fastapi",
+      "status": "UNKNOWN",
+      "timestamp": "2026-10-07T17:33:54.520941+00:00",
+      "metrics": {
+        "base_url": "http://127.0.0.1:8000",
+        "probes": [
+          {
+            "url": "http://127.0.0.1:8000/health",
+            "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360D5AFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+            "ok": false,
+            "endpoint": "health"
+          },
+          {
+            "url": "http://127.0.0.1:8000/health/models",
+            "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /health/models (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360DA42B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+            "ok": false,
+            "endpoint": "health_models"
+          }
+        ]
+      },
+      "warnings": [
+        "FastAPI at http://127.0.0.1:8000 is not reachable. Start with: python -m uvicorn api.main:app --reload"
+      ],
+      "errors": [
+        "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F360D5AFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+      ]
+    }
+  },
+  "alerts": [
+    {
+      "timestamp": "2026-10-07T17:33:58.656110+00:00",
+      "severity": "CRITICAL",
+      "component": "data_quality",
+      "metric": "null_percentage[user_events]",
+      "value": 25.26,
+      "threshold": 15.0,
+      "message": "null_percentage value 25.3 exceeds critical threshold 15 %"
+    }
+  ]
+}
