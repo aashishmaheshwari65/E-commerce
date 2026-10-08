@@ -15,6 +15,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 import pytest
 
+# Ensure repository root is the first entry in sys.path
+REPO_ROOT = str(Path(__file__).resolve().parent.parent)
+if sys.path[0] != REPO_ROOT:
+    if REPO_ROOT in sys.path:
+        sys.path.remove(REPO_ROOT)
+    sys.path.insert(0, REPO_ROOT)
+
 
 class ResultCollector:
     def __init__(self):
