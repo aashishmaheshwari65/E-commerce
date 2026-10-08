@@ -1,0 +1,6 @@
+order_id,user_id,order_date,order_status,payment_method,total_amount
+101,1,2024-06-01,delivered,credit_card,180.0
+102,1,2024-06-15,delivered,credit_card,80.0
+103,2,2024-06-10,delivered,debit_card,60.0
+104,3,2024-06-20,pending,cash_on_delivery,120.0
+105,4,2024-06-25,cancelled,credit_card,40.0

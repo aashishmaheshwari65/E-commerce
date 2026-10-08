@@ -1,0 +1,6 @@
+product_id,product_name,category,price,discount_percent,stock,rating
+1,Wireless Headphones,Electronics,100.0,10,50,4.5
+2,Coffee Maker,Home & Kitchen,80.0,0,30,4.2
+3,Denim Jacket,Fashion,60.0,15,40,4.0
+4,Python Cookbook,Books,40.0,5,100,4.8
+5,Running Shoes,Footwear,120.0,20,25,4.6

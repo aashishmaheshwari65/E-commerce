@@ -1,0 +1,6 @@
+review_id,user_id,product_id,rating,review_title,review_date
+1,1,1,5,Great sound quality,2024-06-05
+2,2,2,4,Makes good coffee,2024-06-12
+3,3,3,4,Comfortable jacket,2024-06-22
+4,1,4,5,Very informative,2024-06-28
+5,4,5,4,Nice running shoes,2024-06-30

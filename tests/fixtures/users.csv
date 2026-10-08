@@ -1,0 +1,6 @@
+user_id,first_name,last_name,email,city,country,registration_date
+1,Alice,Smith,alice.smith@example.com,New York,USA,2024-01-15
+2,Bob,Jones,bob.jones@example.com,Chicago,USA,2024-02-20
+3,Charlie,Brown,charlie.brown@example.com,Austin,USA,2024-03-10
+4,Diana,Prince,diana.prince@example.com,Seattle,USA,2024-04-05
+5,Edward,Elric,edward.elric@example.com,Boston,USA,2024-05-12

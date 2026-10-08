@@ -1,0 +1,6 @@
+payment_id,order_id,payment_date,payment_method,payment_status,amount
+1,101,2024-06-01,credit_card,paid,180.0
+2,102,2024-06-15,credit_card,paid,80.0
+3,103,2024-06-10,debit_card,paid,60.0
+4,104,2024-06-20,cash_on_delivery,pending,120.0
+5,105,2024-06-25,credit_card,refunded,40.0

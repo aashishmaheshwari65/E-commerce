@@ -1,0 +1,36 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main, master, dev ]
+  pull_request:
+    branches: [ main, master, dev ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          if [ -f requirements-api.txt ]; then python -m pip install -r requirements-api.txt; fi
+          python -m pip install pytest pytest-cov scikit-learn requests
+
+      - name: Run Pytest Suite
+        run: |
+          python -m pytest -v
+
+      - name: Run Pytest Coverage
+        run: |
+          python -m pytest --cov=. --cov-report=term-missing
