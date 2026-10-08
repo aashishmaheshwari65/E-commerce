@@ -14,6 +14,10 @@ import pytest
 import pandas as pd
 import numpy as np
 
+# Ensure safe fallback DATABASE_URL for isolated testing environments (such as CI/CD) if not set
+if not os.environ.get("DATABASE_URL"):
+    os.environ["DATABASE_URL"] = "sqlite:///:memory:"
+
 # Root directory of tests
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
 

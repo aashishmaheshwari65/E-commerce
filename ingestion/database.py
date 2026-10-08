@@ -1,5 +1,9 @@
 import os
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 # pyrefly: ignore [missing-import]
 from sqlalchemy import (
@@ -9,8 +13,6 @@ from sqlalchemy import (
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 Base = declarative_base()
-
-load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 

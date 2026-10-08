@@ -25,12 +25,17 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
           if [ -f requirements-api.txt ]; then python -m pip install -r requirements-api.txt; fi
-          python -m pip install pytest pytest-cov scikit-learn requests
+          python -m pip install pytest pytest-cov scikit-learn requests python-dotenv pyarrow scipy httpx
 
       - name: Run Pytest Suite
+        env:
+          DATABASE_URL: sqlite:///:memory:
         run: |
           python -m pytest -v
 
       - name: Run Pytest Coverage
+        env:
+          DATABASE_URL: sqlite:///:memory:
         run: |
           python -m pytest --cov=. --cov-report=term-missing
+
