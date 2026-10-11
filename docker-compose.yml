@@ -1,0 +1,43 @@
+# ==============================================================================
+# Primary Docker Compose Stack: E-Commerce REST API & Inference Service
+# Run command: docker compose up -d
+# ==============================================================================
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ecommerce-platform-api:latest
+    container_name: ecommerce-api
+    restart: unless-stopped
+    ports:
+      - "${API_PORT:-8000}:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - ML_DATA_ROOT=/app/data
+      - ML_MODEL_ROOT=/app/data/models
+      - ML_FEATURE_ROOT=/app/data/ml_pipeline/features
+      - API_CORS_ORIGINS=${API_CORS_ORIGINS:-http://localhost:3000,http://localhost:5173}
+      - DATABASE_URL=${DATABASE_URL:-}
+      - SUPABASE_URL=${SUPABASE_URL:-}
+      - SUPABASE_KEY=${SUPABASE_KEY:-}
+    env_file:
+      - .env
+    volumes:
+      # Mount host data directory to persist Parquet layers, models, and feature store
+      - ./data:/app/data
+    networks:
+      - ecommerce-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+networks:
+  ecommerce-network:
+    name: ecommerce-network
+    driver: bridge

@@ -9,7 +9,7 @@ x-airflow-common:
     - AIRFLOW__CORE__LOAD_EXAMPLES=False
     - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
     - AIRFLOW_HOME=/opt/airflow
-    - _PIP_ADDITIONAL_REQUIREMENTS=pandas pyarrow supabase python-dotenv
+    - _PIP_ADDITIONAL_REQUIREMENTS=pandas pyarrow supabase python-dotenv scikit-learn scipy
   env_file:
     - .env
   volumes:
@@ -19,6 +19,14 @@ x-airflow-common:
     - ./validation:/opt/airflow/validation
     - ./etl:/opt/airflow/etl
     - ./data_lake:/opt/airflow/data_lake
+    - ./data_warehouse:/opt/airflow/data_warehouse
+    - ./sql_analytics:/opt/airflow/sql_analytics
+    - ./customer_segmentation:/opt/airflow/customer_segmentation
+    - ./churn_prediction:/opt/airflow/churn_prediction
+    - ./sales_forecasting:/opt/airflow/sales_forecasting
+    - ./recommendation_system:/opt/airflow/recommendation_system
+    - ./ml_pipeline:/opt/airflow/ml_pipeline
+    - ./monitoring:/opt/airflow/monitoring
     - ./data:/opt/airflow/data
     - ./ingestion:/opt/airflow/ingestion
   depends_on:

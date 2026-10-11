@@ -1,0 +1,54 @@
+# Git repository & CI/CD
+.git
+.gitignore
+.github
+
+# Python caches and artifacts
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache
+.coverage
+htmlcov
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE & Editor files
+.vscode
+.idea
+.gemini
+*.swp
+*.swo
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Airflow local runtime logs & DB
+airflow/logs
+airflow/airflow.cfg
+airflow/airflow.db
+
+# Generated data & large local outputs (mounted dynamically at runtime)
+data/raw/*.csv
+data/processed/*.csv
+data/lake
+data/warehouse
+data/spark
+data/models
+data/testing
+data/monitoring
+data/realtime/events.jsonl
+
+# Documentation scratch & logs
+docker/*.log
+*.log
